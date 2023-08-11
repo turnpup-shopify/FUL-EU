@@ -1,0 +1,107 @@
+<script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    document.addEventListener("click", (e) => {
+      if (e.target.classList.contains("cart__checkout")) {
+        send_begin_checkout();
+      }
+    });
+  })
+  {% if template contains 'product' %}
+    send_view_item();
+    function send_view_item() {
+      window.dataLayer = window.dataLayer || [];
+      dataLayer.push({ ecommerce: null });
+      dataLayer.push({
+        event: "view_item",
+        ecommerce: {
+          currency: "USD",
+          value: {{ product.price }},
+          items: [
+            {
+              item_id: "{{ product.id }}",
+              item_name: "{{ product.title }}"
+            }
+          ]
+        }
+      });
+    }
+    window.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelector("#AddToCart").addEventListener("click", send_add_to_cart_item);
+    })
+  {% elsif template contains 'collection'%}
+    console.log("it IS a collections page");
+    window.addEventListener('DOMContentLoaded', (event) => {
+      document.querySelector(".quick-add-button").addEventListener("click", function() {
+          send_quick_add_to_cart_item.bind(this)();
+        }
+      )
+    });
+  {% else %}  
+    console.log("it is NOT a product page");
+  {%  endif %}
+  
+</script>
+
+<script>
+  function send_quick_add_to_cart_item(event) {
+      console.log("send_quick_add_to_cart_item");
+      var rootProduct = this.parentElement.parentElement.parentElement;
+      var title = "example";
+      var productId = "example";
+      var price = "example";
+      title = rootProduct.querySelector(".product-grid--title").innerText;
+      productId = rootProduct.getAttribute("data-product-id");
+      price = rootProduct.querySelector(".product-grid--price").innerText; 
+      window.dataLayer = window.dataLayer || [];
+      dataLayer.push({
+        event: "add_to_cart",
+        ecommerce: {
+          currency: "USD",
+          value: price,
+          items: [
+            {
+              item_id: productId,
+              item_name: title
+            }
+          ]
+        }
+      });
+    }
+  function send_add_to_cart_item() {
+    console.log("send_add_to_cart_item");
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      event: "add_to_cart",
+      ecommerce: {
+        currency: "USD",
+        value: {{ product.price | default: "example" }},
+        items: [
+          {
+            item_id: "{{ product.id | default: "example" }}",
+            item_name: "{{ product.title | default: "example" }}"
+          }
+        ]
+      }
+    });
+    dataLayer.push({'event': 'custom_atc'});
+  }
+  function send_begin_checkout() {
+      console.log("BEGIN CHECKOUT");
+      window.dataLayer = window.dataLayer || [];
+      dataLayer.push({ ecommerce: null });
+      dataLayer.push({
+        event: "begin_checkout",
+        ecommerce: {
+          currency: "USD",
+          value: {{ cart.total_price }},
+          items: [
+            {
+              item_id: "{{ cart.items[0].product_id }}",
+              item_name: "{{ cart.items[0].title }}"
+            }
+          ]        
+        }
+      });
+      dataLayer.push({'event': 'custom_begin_checkout'});
+    }
+</script>
