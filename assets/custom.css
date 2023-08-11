@@ -1,3 +1,14 @@
+/* HOMEPAGE CUSTOM */
+.homepage-slider-container .homepage-featured-content-box-inner {
+  max-width: 1660px; 
+  margin: auto;
+  padding: 0 0 0 15px;
+}
+.homepage-slider-container .homepage-featured-content-box {max-width: 100%;}
+.homepage-slider-container .homepage-section-btn {border: 2px solid; width: 200px; text-align: center;}
+.homepage-slider-container .align-center {max-height: 100%;}
+.homepage-slider-container .textarea {margin-top: 13px;}
+
 /* START CUSTOM - Collection Page */
 .product-grid--title {
   padding-top: 14px !important; 
