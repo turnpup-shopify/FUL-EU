@@ -63,14 +63,18 @@
 
                 <div class="homepage-gallery-grid-inner{% if section.settings.content-position == 'below-image' %} info-below-image{% endif %}">
                   <div class="overflow">
-                    <div class="grid-image{% if settings.ken_burns_enabled %} kb-enabled{% endif %}">
+                    <div class="grid-image{% if settings.ken_burns_enabled %} kb-enabled{% endif %}" style="min-height: 200px;">
                       {% if block.settings.link != blank %}
                         <a href="{{ block.settings.link }}" class="grid-image--centered">
                       {% endif %}
 
                         {% if block.settings.image == blank %}
-                          <div class="grid-image--placeholder-wrapper">
-                            {{ 'image' | placeholder_svg_tag: 'icon icon--placeholder' }}
+                          <div class="grid-image--placeholder-wrapper" style="position: relative;">
+                            {% comment %} {{ 'image' | placeholder_svg_tag: 'icon icon--placeholder' }} {% endcomment %}
+                            <div class="gallery_overlay_text" style="background-color: {{ block.settings.background_color}};">
+                              <h3 style="color: {{ block.settings.color}};"> {{ block.settings.title }} </h3>
+                              <p style="color: {{ block.settings.color}};"> {{ block.settings.subheading }} </p>
+                            </div>
                           </div>
                         {% else %}
                           {% render 'responsive-image' with block.settings.image, alt: block.settings.image.alt, allow_stretch: true %}
@@ -132,7 +136,21 @@
     </div>
   {% endif %}
 </div>
-
+{% if section.settings.reverse-mobile %}
+<style>
+  @media screen and (max-width: 767px) {
+    #shopify-section-{{section.id}} .gallery-grid {
+        flex-direction: column-reverse;
+    }
+  }
+  .gallery_overlay_text h3 {
+    font-size: 30px;
+  }
+  .gallery_overlay_text p {
+    font-size: 22px;
+  }
+</style>
+{% endif %}
 {% schema %}
 {
     "name": {
@@ -220,6 +238,12 @@
               "fr": "Description",
               "pt-PT": "Descrição"
           }
+        },
+        {
+             "type": "checkbox",
+             "id": "reverse-mobile",
+             "default": false,
+             "label": "Reverse columns on mobile."      
         },
         {
              "type": "checkbox",
@@ -395,6 +419,23 @@
                         "fr": "Sous-titre",
                         "pt-PT": "Subtítulo"
                     }
+                },
+                {
+                    "type": "color",
+                    "id": "background_color",
+                    "label": {
+                        "en": "Background Color"
+                    },
+                    "default": "#ffffff",
+                    "info": "Background color is used if no image provided"
+                },
+                {
+                    "type": "color",
+                    "id": "color",
+                    "label": {
+                        "en": "Font Color"
+                    },
+                    "default": "#00525F"
                 },
                 {
                    "type": "text",
