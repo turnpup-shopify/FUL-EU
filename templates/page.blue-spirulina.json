@@ -1,0 +1,1256 @@
+{
+    "sections": {
+      "image-with-text-overlay": {
+        "type": "image--image-with-text-overlay",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/bioreactor.jpg",
+          "image_height": "40vw",
+          "bg_image_overlay_opacity": 70,
+          "parallax": true,
+          "title": "",
+          "text": "We're on a mission to unlock the potential of microalgae through ingredients with unlimited potential to power more sustainable, nutritious consumer products",
+          "colors": "light",
+          "textPosition": "center",
+          "textAlignment": "center",
+          "heading--text-size": 50,
+          "text--text-size": 40,
+          "link": "",
+          "button_label": "",
+          "button-text": "#ffffff",
+          "button-background": "#000000",
+          "hover-button-text": "#ffffff",
+          "hover-button-background": "#4e4e4e"
+        }
+      },
+      "2d83edb3-86c4-484f-a0d7-d88c756145c4": {
+        "type": "text--rich-text",
+        "disabled": true,
+        "custom_css": [
+          ".wrapper {margin-bottom: 100px; margin-top: 100px;}",
+          "@media screen and (max-width: 700px) {.wrapper {margin-bottom: 60px; margin-top: 60px; }}"
+        ],
+        "settings": {
+          "colors": "white",
+          "title": "Why Spirulina",
+          "text": "<p>Besides its sustainability potential, Spirulina has a superior nutritional profile, including a rich mix of micronutrients, fatty acids and protein. <\/p><p>Through our fully owned and highly sustainable biorefinery process, we’re able to extract these nutrients while improving functionality, taste and stability.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "68642a6f-0791-4e55-a53c-a6d776320ff3": {
+        "type": "video--video-hero",
+        "disabled": true,
+        "settings": {
+          "url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0255\/9616\/6180\/files\/cristian-palmer-XexawgzYOBc-unsplash.jpg?v=1689783835",
+          "desktopHeight": "450",
+          "mobileHeight": "250",
+          "title": "BLUE SPIRULINA",
+          "subheading": "Experience the magic of the superfood we use in all our beverages.",
+          "textAlignment": "center",
+          "textColor": "#000000",
+          "textShadow": false,
+          "heading--text-size": 50,
+          "subheading--text-size": 24,
+          "link": "",
+          "button_label": "",
+          "button-text": "#ffffff",
+          "button-background": "#333333",
+          "hover-button-text": "#ffffff",
+          "hover-button-background": "#4e4e4e"
+        }
+      },
+      "768030f3-f9ba-4779-bdba-42b48c013aef": {
+        "type": "text--rich-text",
+        "disabled": true,
+        "custom_css": [
+  
+        ],
+        "settings": {
+          "colors": "white",
+          "title": "The Key Ingredient",
+          "text": "<p>Our signature collection of beverages is made with our key ingredient – blue spirulina. <\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "0590e642-81d3-4406-9d92-1f39d37fb8a8": {
+        "type": "image--image-with-text-overlay",
+        "disabled": true,
+        "custom_css": [
+          "p,h1,h2,h3 {color: black; background: rgba(255, 255, 255, 0.8); padding: 20px 20px 10px 20px;}",
+          ".rte {padding: 0 20px 20px 20px; color: black; background: rgba(255, 255, 255, 0.8);}"
+        ],
+        "settings": {
+          "image": "shopify:\/\/shop_images\/algae.jpg",
+          "image_height": "40vw",
+          "bg_image_overlay_opacity": 0,
+          "parallax": true,
+          "title": "WHY SPIRULINA",
+          "text": "Besides its sustainability potential, Spirulina has a superior nutritional profile, including a rich mix of micronutrients, fatty acids and protein. Through our fully owned and highly sustainable biorefinery process, we’re able to extract these nutrients while improving functionality, taste and stability.",
+          "colors": "dark",
+          "textPosition": "center",
+          "textAlignment": "center",
+          "heading--text-size": 34,
+          "text--text-size": 22,
+          "link": "",
+          "button_label": "",
+          "button-text": "#ffffff",
+          "button-background": "#333333",
+          "hover-button-text": "#ffffff",
+          "hover-button-background": "#4e4e4e"
+        }
+      },
+      "48c44f39-7f6e-44f0-9f51-f4fe57d234c6": {
+        "type": "image--gallery",
+        "blocks": {
+          "template--19294185029969__48c44f39-7f6e-44f0-9f51-f4fe57d234c6-image-2": {
+            "type": "image",
+            "settings": {
+              "link": "",
+              "title": "Why Spirulina",
+              "subheading": "In addition to  its sustainability potential, Spirulina has a superior nutritional profile, including a rich mix of micronutrients, fatty acids and protein. Through our fully owned and highly sustainable biorefinery process, we’re able to extract these nutrients while improving functionality, taste and stability.",
+              "background_color": "#ffffff",
+              "color": "#00525f",
+              "overlay-btn-text": "",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#ffffff",
+              "overlay_color": "#323232"
+            }
+          },
+          "template--19294185029969__48c44f39-7f6e-44f0-9f51-f4fe57d234c6-image-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/15.png",
+              "link": "",
+              "title": "",
+              "subheading": "",
+              "background_color": "#ffffff",
+              "color": "#00525f",
+              "overlay-btn-text": "",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#ffffff",
+              "overlay_color": "#323232"
+            }
+          }
+        },
+        "block_order": [
+          "template--19294185029969__48c44f39-7f6e-44f0-9f51-f4fe57d234c6-image-2",
+          "template--19294185029969__48c44f39-7f6e-44f0-9f51-f4fe57d234c6-image-1"
+        ],
+        "settings": {
+          "colors": "white",
+          "title": "",
+          "richtext": "",
+          "reverse-mobile": false,
+          "remove-spacing": true,
+          "full-width": false,
+          "section-width": "full",
+          "content-position": "hide"
+        }
+      },
+      "f566c35f-2b15-4a21-b97d-985e3aa25c8c": {
+        "type": "image--gallery",
+        "blocks": {
+          "template--19294185029969__f566c35f-2b15-4a21-b97d-985e3aa25c8c-image-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/9.png",
+              "link": "",
+              "title": "",
+              "subheading": "",
+              "background_color": "#ffffff",
+              "color": "#00525f",
+              "overlay-btn-text": "",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#ffffff",
+              "overlay_color": "#323232"
+            }
+          },
+          "template--19294185029969__f566c35f-2b15-4a21-b97d-985e3aa25c8c-image-2": {
+            "type": "image",
+            "settings": {
+              "link": "",
+              "title": "FUL BLU",
+              "subheading": "Our first ingredient, FUL BLU has cracked the code on mass market applications.\n\nFUL BLU is a naturally blue protein pigment that is stable across a range of heat treatments and pH ranges, has a higher digestibility score than soy protein, and an antioxidant capacity that is on par with rich plant-based sources.",
+              "background_color": "#ffffff",
+              "color": "#00525f",
+              "overlay-btn-text": "",
+              "show-gradient-overlay": false,
+              "overlay_font_color": "#242424",
+              "overlay_color": "#323232"
+            }
+          }
+        },
+        "block_order": [
+          "template--19294185029969__f566c35f-2b15-4a21-b97d-985e3aa25c8c-image-1",
+          "template--19294185029969__f566c35f-2b15-4a21-b97d-985e3aa25c8c-image-2"
+        ],
+        "settings": {
+          "colors": "white",
+          "title": "",
+          "richtext": "",
+          "reverse-mobile": true,
+          "remove-spacing": true,
+          "full-width": false,
+          "section-width": "full",
+          "content-position": "hide"
+        }
+      },
+      "2fe4ed7f-43bf-4433-aa0f-5591b578f43b": {
+        "type": "content",
+        "blocks": {
+          "93f6ef48-6d70-4664-9e13-19f5e8b55518": {
+            "type": "title",
+            "settings": {
+              "text": "It has endless potential to power nutritious products for humankind, starting with FULwater",
+              "text_alignment": "center",
+              "heading_type": "h1",
+              "heading_style": "h1",
+              "font_family": "'Antique Olive', sans-serif;",
+              "color": "",
+              "content_width": "content-width",
+              "no_margin": false
+            }
+          },
+          "58fd3ce6-fed4-4c4a-861d-0a08742fdd0d": {
+            "type": "title",
+            "disabled": true,
+            "settings": {
+              "text": "Vitamin B1 \/ B2 \/ B3",
+              "text_alignment": "center",
+              "heading_type": "h4",
+              "heading_style": "h3",
+              "font_family": "'Helvetica Neue'",
+              "color": "",
+              "content_width": "content-width",
+              "no_margin": false
+            }
+          },
+          "7e72d758-e37e-4058-abad-eb34cc45a7d0": {
+            "type": "title",
+            "disabled": true,
+            "settings": {
+              "text": "Copper",
+              "text_alignment": "center",
+              "heading_type": "h3",
+              "heading_style": "h3",
+              "font_family": "'Helvetica Neue'",
+              "color": "",
+              "content_width": "content-width",
+              "no_margin": false
+            }
+          },
+          "7ff1499b-c7b5-4dfb-bc98-edcb4ce5ebfe": {
+            "type": "title",
+            "disabled": true,
+            "settings": {
+              "text": "Iron",
+              "text_alignment": "center",
+              "heading_type": "h3",
+              "heading_style": "h3",
+              "font_family": "'Helvetica Neue'",
+              "color": "",
+              "content_width": "content-width",
+              "no_margin": false
+            }
+          }
+        },
+        "block_order": [
+          "93f6ef48-6d70-4664-9e13-19f5e8b55518",
+          "58fd3ce6-fed4-4c4a-861d-0a08742fdd0d",
+          "7e72d758-e37e-4058-abad-eb34cc45a7d0",
+          "7ff1499b-c7b5-4dfb-bc98-edcb4ce5ebfe"
+        ],
+        "settings": {
+          "content_width": "content-width",
+          "no_margin": false,
+          "add_padding": true,
+          "top_padding": 70,
+          "bottom_padding": 0,
+          "left_padding": 80,
+          "right_padding": 80,
+          "mobile_top_padding": 20,
+          "mobile_bottom_padding": 20,
+          "mobile_left_padding": 20,
+          "mobile_right_padding": 20,
+          "custom_background_color": true,
+          "background_color": "#ffffff",
+          "visibility": "show-both"
+        }
+      },
+      "2da0d3e0-62c4-4ae7-9afc-24115385fdd0": {
+        "type": "flwr-multicolumn",
+        "blocks": {
+          "template--19294185029969__2da0d3e0-62c4-4ae7-9afc-24115385fdd0-column-1": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/4_Energy.png",
+              "image_border_radius": "0px",
+              "title": "",
+              "title_font_size": "22px",
+              "title_font_size_mobile": "14px",
+              "title_font_family": "'Helvetica Neue'",
+              "title_font_color": "#000000",
+              "title_line_height": "1.0",
+              "title_font_weight": "600",
+              "title_margin_top": "8px",
+              "text": "Heat Stable",
+              "text_font_size": "20px",
+              "text_font_size_mobile": "16px",
+              "text_font_family": "'Helvetica Neue'",
+              "text_font_color": "#00525f",
+              "text_line_height": "1.3",
+              "text_font_weight": "600",
+              "subtitle_margin_top": "8px",
+              "description": "",
+              "description_font_size": "30px",
+              "description_font_size_mobile": "14px",
+              "description_font_family": "'Helvetica Neue'",
+              "description_font_color": "#00525f",
+              "description_line_height": "1.3",
+              "description_font_weight": "600",
+              "description_margin_top": "0px",
+              "description_margin_bottom": "0px",
+              "link_label": "",
+              "link": "",
+              "is_hero_button": false,
+              "link_label_two": "",
+              "link_two": "",
+              "is_hero_button_two": false,
+              "button_is_white_border_two": false,
+              "space_between_buttons": 6,
+              "vertically_align_center": false,
+              "top_margin_column": "",
+              "top_margin_column_mobile": "",
+              "width": "",
+              "text_max_width": "100%",
+              "hide_on_mobile": false,
+              "mobile_order": "",
+              "margin_bottom_container": "",
+              "remove_top_padding": true,
+              "remove_bottom_padding": true
+            }
+          },
+          "f4770e6a-4550-4474-9c1a-b30249bd3dfd": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/7_Immunity.png",
+              "image_border_radius": "0px",
+              "title": "",
+              "title_font_size": "22px",
+              "title_font_size_mobile": "14px",
+              "title_font_family": "'Helvetica Neue'",
+              "title_font_color": "#000000",
+              "title_line_height": "1.0",
+              "title_font_weight": "600",
+              "title_margin_top": "8px",
+              "text": "pH Stable",
+              "text_font_size": "20px",
+              "text_font_size_mobile": "16px",
+              "text_font_family": "'Helvetica Neue'",
+              "text_font_color": "#00525f",
+              "text_line_height": "1.3",
+              "text_font_weight": "600",
+              "subtitle_margin_top": "8px",
+              "description": "",
+              "description_font_size": "30px",
+              "description_font_size_mobile": "14px",
+              "description_font_family": "'Helvetica Neue'",
+              "description_font_color": "#000000",
+              "description_line_height": "1.3",
+              "description_font_weight": "600",
+              "description_margin_top": "0px",
+              "description_margin_bottom": "0px",
+              "link_label": "",
+              "link": "",
+              "is_hero_button": false,
+              "link_label_two": "",
+              "link_two": "",
+              "is_hero_button_two": false,
+              "button_is_white_border_two": false,
+              "space_between_buttons": 8,
+              "vertically_align_center": false,
+              "top_margin_column": "",
+              "top_margin_column_mobile": "",
+              "width": "",
+              "text_max_width": "100%",
+              "hide_on_mobile": false,
+              "mobile_order": "",
+              "margin_bottom_container": "",
+              "remove_top_padding": true,
+              "remove_bottom_padding": true
+            }
+          },
+          "91bc8633-e1a4-4358-a03a-7659078e821d": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2_Anti-inflammatory.png",
+              "image_border_radius": "0px",
+              "title": "",
+              "title_font_size": "0px",
+              "title_font_size_mobile": "0px",
+              "title_font_family": "'Helvetica Neue'",
+              "title_font_color": "#00525f",
+              "title_line_height": "1.0",
+              "title_font_weight": "600",
+              "title_margin_top": "0px",
+              "text": "Key Vitamins",
+              "text_font_size": "20px",
+              "text_font_size_mobile": "16px",
+              "text_font_family": "'Helvetica Neue'",
+              "text_font_color": "#00525f",
+              "text_line_height": "1.3",
+              "text_font_weight": "600",
+              "subtitle_margin_top": "8px",
+              "description": "",
+              "description_font_size": "30px",
+              "description_font_size_mobile": "14px",
+              "description_font_family": "'Helvetica Neue'",
+              "description_font_color": "#000000",
+              "description_line_height": "1.3",
+              "description_font_weight": "600",
+              "description_margin_top": "0px",
+              "description_margin_bottom": "0px",
+              "link_label": "",
+              "link": "",
+              "is_hero_button": false,
+              "link_label_two": "",
+              "link_two": "",
+              "is_hero_button_two": false,
+              "button_is_white_border_two": false,
+              "space_between_buttons": 8,
+              "vertically_align_center": false,
+              "top_margin_column": "",
+              "top_margin_column_mobile": "",
+              "width": "",
+              "text_max_width": "100%",
+              "hide_on_mobile": false,
+              "mobile_order": "",
+              "margin_bottom_container": "",
+              "remove_top_padding": true,
+              "remove_bottom_padding": true
+            }
+          },
+          "84a4e74a-e3d3-4469-bcd4-b3661974023b": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/1_Detox.png",
+              "image_border_radius": "0px",
+              "title": "",
+              "title_font_size": "22px",
+              "title_font_size_mobile": "14px",
+              "title_font_family": "'Helvetica Neue'",
+              "title_font_color": "#000000",
+              "title_line_height": "1.0",
+              "title_font_weight": "600",
+              "title_margin_top": "8px",
+              "text": "Sustainability",
+              "text_font_size": "20px",
+              "text_font_size_mobile": "16px",
+              "text_font_family": "'Helvetica Neue'",
+              "text_font_color": "#00525f",
+              "text_line_height": "1.3",
+              "text_font_weight": "600",
+              "subtitle_margin_top": "8px",
+              "description": "",
+              "description_font_size": "30px",
+              "description_font_size_mobile": "14px",
+              "description_font_family": "'Helvetica Neue'",
+              "description_font_color": "#00525f",
+              "description_line_height": "1.3",
+              "description_font_weight": "600",
+              "description_margin_top": "0px",
+              "description_margin_bottom": "0px",
+              "link_label": "",
+              "link": "",
+              "is_hero_button": false,
+              "link_label_two": "",
+              "link_two": "",
+              "is_hero_button_two": false,
+              "button_is_white_border_two": false,
+              "space_between_buttons": 8,
+              "vertically_align_center": false,
+              "top_margin_column": "",
+              "top_margin_column_mobile": "",
+              "width": "",
+              "text_max_width": "100%",
+              "hide_on_mobile": false,
+              "mobile_order": "",
+              "margin_bottom_container": "",
+              "remove_top_padding": true,
+              "remove_bottom_padding": false
+            }
+          }
+        },
+        "block_order": [
+          "template--19294185029969__2da0d3e0-62c4-4ae7-9afc-24115385fdd0-column-1",
+          "f4770e6a-4550-4474-9c1a-b30249bd3dfd",
+          "91bc8633-e1a4-4358-a03a-7659078e821d",
+          "84a4e74a-e3d3-4469-bcd4-b3661974023b"
+        ],
+        "custom_css": [
+  
+        ],
+        "settings": {
+          "padding_top": 20,
+          "padding_bottom": 0,
+          "padding_right": 100,
+          "padding_left": 100,
+          "max_height_desktop": 94,
+          "mobile_max_height_desktop": 10,
+          "enabled_border": false,
+          "swipe_on_mobile": false,
+          "desktop_image_width": "100px",
+          "mobile_image_width": "100px",
+          "image_width": "full",
+          "column_alignment": "center",
+          "column_gap": "0px",
+          "button_padding": "10px 20px",
+          "hero_button_font_family": "'Helvetica Neue'",
+          "hero_button_font_size": "18px",
+          "hero_button_font_weight": "400",
+          "button_border_radius": "0px",
+          "button_border_color": "#000000",
+          "button_background_color": "#ffffff",
+          "button_text_color": "#000000",
+          "button_border_color_hover": "#ffffff",
+          "button_background_color_hover": "#000000",
+          "button_text_color_hover": "#ffffff",
+          "button_label": "",
+          "button_link": "",
+          "title": "",
+          "title_font_size": "56px",
+          "title_font_family": "'Helvetica Neue'",
+          "section_title_font_weight": "400",
+          "section_title_padding": "0px",
+          "sub_title": "",
+          "subtitle_font_size": "20px",
+          "section_subtitle_padding": "0px",
+          "subtitle_font_family": "'Helvetica Neue'",
+          "title_alignment": "center",
+          "section_text_color": "#000000",
+          "overall_background_image_url": "",
+          "section_background_color": "#ffffff"
+        }
+      },
+      "2080abfc-fd57-4cf6-9626-59f43fe9f948": {
+        "type": "image--gallery",
+        "blocks": {
+          "template--19294185029969__2080abfc-fd57-4cf6-9626-59f43fe9f948-image-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ful_graphic.jpg",
+              "link": "",
+              "title": "We’ve unlocked spirulina’s benefits through our innovation, and FULblu is just the beginning, see more ---> redirect to FUL protein",
+              "subheading": "",
+              "background_color": "#ffffff",
+              "color": "#00525f",
+              "overlay-btn-text": "",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#ffffff",
+              "overlay_color": "#323232"
+            }
+          }
+        },
+        "block_order": [
+          "template--19294185029969__2080abfc-fd57-4cf6-9626-59f43fe9f948-image-2"
+        ],
+        "settings": {
+          "colors": "white",
+          "title": "",
+          "richtext": "",
+          "reverse-mobile": false,
+          "remove-spacing": true,
+          "full-width": false,
+          "section-width": "full",
+          "content-position": "hide"
+        }
+      },
+      "fdc2c097-c8a2-4e57-a248-9f423080e0e7": {
+        "type": "flwr-multicolumn",
+        "blocks": {
+          "template--19294185029969__fdc2c097-c8a2-4e57-a248-9f423080e0e7-column-1": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/new_1.jpg",
+              "image_border_radius": "300px",
+              "title": "FUL BLU Powder",
+              "title_font_size": "22px",
+              "title_font_size_mobile": "14px",
+              "title_font_family": "'Helvetica Neue'",
+              "title_font_color": "#00525f",
+              "title_line_height": "1.0",
+              "title_font_weight": "600",
+              "title_margin_top": "8px",
+              "text": "",
+              "text_font_size": "30px",
+              "text_font_size_mobile": "16px",
+              "text_font_family": "'Helvetica Neue'",
+              "text_font_color": "#000000",
+              "text_line_height": "1.3",
+              "text_font_weight": "600",
+              "subtitle_margin_top": "8px",
+              "description": "",
+              "description_font_size": "30px",
+              "description_font_size_mobile": "14px",
+              "description_font_family": "'Helvetica Neue'",
+              "description_font_color": "#000000",
+              "description_line_height": "1.3",
+              "description_font_weight": "600",
+              "description_margin_top": "0px",
+              "description_margin_bottom": "0px",
+              "link_label": "",
+              "link": "",
+              "is_hero_button": false,
+              "link_label_two": "",
+              "link_two": "",
+              "is_hero_button_two": false,
+              "button_is_white_border_two": false,
+              "space_between_buttons": 8,
+              "vertically_align_center": false,
+              "top_margin_column": "20px",
+              "top_margin_column_mobile": "",
+              "width": "",
+              "text_max_width": "80%",
+              "hide_on_mobile": false,
+              "mobile_order": "",
+              "margin_bottom_container": "",
+              "remove_top_padding": false,
+              "remove_bottom_padding": false
+            }
+          },
+          "template--19294185029969__fdc2c097-c8a2-4e57-a248-9f423080e0e7-column-2": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/new_2.jpg",
+              "image_border_radius": "300px",
+              "title": "FUL BLU Concentrated Liquid",
+              "title_font_size": "22px",
+              "title_font_size_mobile": "14px",
+              "title_font_family": "'Helvetica Neue'",
+              "title_font_color": "#00525f",
+              "title_line_height": "1.0",
+              "title_font_weight": "600",
+              "title_margin_top": "8px",
+              "text": "",
+              "text_font_size": "30px",
+              "text_font_size_mobile": "16px",
+              "text_font_family": "'Helvetica Neue'",
+              "text_font_color": "#000000",
+              "text_line_height": "1.3",
+              "text_font_weight": "600",
+              "subtitle_margin_top": "8px",
+              "description": "",
+              "description_font_size": "30px",
+              "description_font_size_mobile": "14px",
+              "description_font_family": "'Helvetica Neue'",
+              "description_font_color": "#000000",
+              "description_line_height": "1.3",
+              "description_font_weight": "600",
+              "description_margin_top": "0px",
+              "description_margin_bottom": "0px",
+              "link_label": "",
+              "link": "",
+              "is_hero_button": false,
+              "link_label_two": "",
+              "link_two": "",
+              "is_hero_button_two": false,
+              "button_is_white_border_two": false,
+              "space_between_buttons": 8,
+              "vertically_align_center": false,
+              "top_margin_column": "20px",
+              "top_margin_column_mobile": "",
+              "width": "",
+              "text_max_width": "80%",
+              "hide_on_mobile": false,
+              "mobile_order": "",
+              "margin_bottom_container": "",
+              "remove_top_padding": false,
+              "remove_bottom_padding": false
+            }
+          }
+        },
+        "block_order": [
+          "template--19294185029969__fdc2c097-c8a2-4e57-a248-9f423080e0e7-column-1",
+          "template--19294185029969__fdc2c097-c8a2-4e57-a248-9f423080e0e7-column-2"
+        ],
+        "settings": {
+          "padding_top": 44,
+          "padding_bottom": 0,
+          "padding_right": 100,
+          "padding_left": 100,
+          "max_height_desktop": 80,
+          "mobile_max_height_desktop": 90,
+          "enabled_border": false,
+          "swipe_on_mobile": false,
+          "desktop_image_width": "300px",
+          "mobile_image_width": "200px",
+          "image_width": "full",
+          "column_alignment": "center",
+          "column_gap": "0px",
+          "button_padding": "10px 20px",
+          "hero_button_font_family": "'Helvetica Neue'",
+          "hero_button_font_size": "18px",
+          "hero_button_font_weight": "400",
+          "button_border_radius": "0px",
+          "button_border_color": "#000000",
+          "button_background_color": "#ffffff",
+          "button_text_color": "#000000",
+          "button_border_color_hover": "#ffffff",
+          "button_background_color_hover": "#000000",
+          "button_text_color_hover": "#ffffff",
+          "button_label": "",
+          "button_link": "",
+          "title": "FUL BLU Formats",
+          "title_font_size": "2.4em",
+          "title_font_family": "'Antique Olive', sans-serif;",
+          "section_title_font_weight": "400",
+          "section_title_padding": "0px",
+          "sub_title": "",
+          "subtitle_font_size": "20px",
+          "section_subtitle_padding": "0px",
+          "subtitle_font_family": "'Helvetica Neue'",
+          "title_alignment": "center",
+          "section_text_color": "#00525f",
+          "overall_background_image_url": "",
+          "section_background_color": "#ffffff"
+        }
+      },
+      "26c130f2-b24d-4abd-98ee-1280e735d350": {
+        "type": "flwr-multicolumn",
+        "blocks": {
+          "template--19294185029969__26c130f2-b24d-4abd-98ee-1280e735d350-column-1": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ful_export_square_1.jpg",
+              "image_border_radius": "300px",
+              "title": "Own Products",
+              "title_font_size": "22px",
+              "title_font_size_mobile": "14px",
+              "title_font_family": "'Helvetica Neue'",
+              "title_font_color": "#00525f",
+              "title_line_height": "1.0",
+              "title_font_weight": "600",
+              "title_margin_top": "8px",
+              "text": "",
+              "text_font_size": "30px",
+              "text_font_size_mobile": "16px",
+              "text_font_family": "'Helvetica Neue'",
+              "text_font_color": "#000000",
+              "text_line_height": "1.3",
+              "text_font_weight": "600",
+              "subtitle_margin_top": "8px",
+              "description": "",
+              "description_font_size": "30px",
+              "description_font_size_mobile": "14px",
+              "description_font_family": "'Helvetica Neue'",
+              "description_font_color": "#000000",
+              "description_line_height": "1.3",
+              "description_font_weight": "600",
+              "description_margin_top": "0px",
+              "description_margin_bottom": "0px",
+              "link_label": "",
+              "link": "",
+              "is_hero_button": false,
+              "link_label_two": "",
+              "link_two": "",
+              "is_hero_button_two": false,
+              "button_is_white_border_two": false,
+              "space_between_buttons": 8,
+              "vertically_align_center": false,
+              "top_margin_column": "20px",
+              "top_margin_column_mobile": "",
+              "width": "",
+              "text_max_width": "80%",
+              "hide_on_mobile": false,
+              "mobile_order": "",
+              "margin_bottom_container": "",
+              "remove_top_padding": false,
+              "remove_bottom_padding": false
+            }
+          },
+          "template--19294185029969__26c130f2-b24d-4abd-98ee-1280e735d350-column-2": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ful_export_2.jpg",
+              "image_border_radius": "300px",
+              "title": "Hot and Cold Beverage Applications",
+              "title_font_size": "22px",
+              "title_font_size_mobile": "14px",
+              "title_font_family": "'Helvetica Neue'",
+              "title_font_color": "#00525f",
+              "title_line_height": "1.0",
+              "title_font_weight": "600",
+              "title_margin_top": "8px",
+              "text": "",
+              "text_font_size": "30px",
+              "text_font_size_mobile": "16px",
+              "text_font_family": "'Helvetica Neue'",
+              "text_font_color": "#000000",
+              "text_line_height": "1.3",
+              "text_font_weight": "600",
+              "subtitle_margin_top": "8px",
+              "description": "",
+              "description_font_size": "30px",
+              "description_font_size_mobile": "14px",
+              "description_font_family": "'Helvetica Neue'",
+              "description_font_color": "#000000",
+              "description_line_height": "1.3",
+              "description_font_weight": "600",
+              "description_margin_top": "0px",
+              "description_margin_bottom": "0px",
+              "link_label": "",
+              "link": "",
+              "is_hero_button": false,
+              "link_label_two": "",
+              "link_two": "",
+              "is_hero_button_two": false,
+              "button_is_white_border_two": false,
+              "space_between_buttons": 8,
+              "vertically_align_center": false,
+              "top_margin_column": "20px",
+              "top_margin_column_mobile": "",
+              "width": "",
+              "text_max_width": "80%",
+              "hide_on_mobile": false,
+              "mobile_order": "",
+              "margin_bottom_container": "",
+              "remove_top_padding": false,
+              "remove_bottom_padding": false
+            }
+          },
+          "7fb47395-917f-43ee-976e-69a8edfeec31": {
+            "type": "column",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/unnamed.png",
+              "image_border_radius": "300px",
+              "title": "Snack and Breakfast Cereals",
+              "title_font_size": "22px",
+              "title_font_size_mobile": "14px",
+              "title_font_family": "'Helvetica Neue'",
+              "title_font_color": "#00525f",
+              "title_line_height": "1.0",
+              "title_font_weight": "600",
+              "title_margin_top": "8px",
+              "text": "",
+              "text_font_size": "30px",
+              "text_font_size_mobile": "16px",
+              "text_font_family": "'Helvetica Neue'",
+              "text_font_color": "#000000",
+              "text_line_height": "1.3",
+              "text_font_weight": "600",
+              "subtitle_margin_top": "8px",
+              "description": "",
+              "description_font_size": "30px",
+              "description_font_size_mobile": "14px",
+              "description_font_family": "'Helvetica Neue'",
+              "description_font_color": "#000000",
+              "description_line_height": "1.3",
+              "description_font_weight": "600",
+              "description_margin_top": "0px",
+              "description_margin_bottom": "0px",
+              "link_label": "",
+              "link": "",
+              "is_hero_button": false,
+              "link_label_two": "",
+              "link_two": "",
+              "is_hero_button_two": false,
+              "button_is_white_border_two": false,
+              "space_between_buttons": 8,
+              "vertically_align_center": false,
+              "top_margin_column": "20px",
+              "top_margin_column_mobile": "",
+              "width": "",
+              "text_max_width": "80%",
+              "hide_on_mobile": false,
+              "mobile_order": "",
+              "margin_bottom_container": "",
+              "remove_top_padding": false,
+              "remove_bottom_padding": false
+            }
+          }
+        },
+        "block_order": [
+          "template--19294185029969__26c130f2-b24d-4abd-98ee-1280e735d350-column-1",
+          "template--19294185029969__26c130f2-b24d-4abd-98ee-1280e735d350-column-2",
+          "7fb47395-917f-43ee-976e-69a8edfeec31"
+        ],
+        "settings": {
+          "padding_top": 52,
+          "padding_bottom": 0,
+          "padding_right": 100,
+          "padding_left": 100,
+          "max_height_desktop": 80,
+          "mobile_max_height_desktop": 90,
+          "enabled_border": false,
+          "swipe_on_mobile": false,
+          "desktop_image_width": "300px",
+          "mobile_image_width": "200px",
+          "image_width": "full",
+          "column_alignment": "center",
+          "column_gap": "0px",
+          "button_padding": "10px 20px",
+          "hero_button_font_family": "'Helvetica Neue'",
+          "hero_button_font_size": "18px",
+          "hero_button_font_weight": "400",
+          "button_border_radius": "0px",
+          "button_border_color": "#000000",
+          "button_background_color": "#ffffff",
+          "button_text_color": "#000000",
+          "button_border_color_hover": "#ffffff",
+          "button_background_color_hover": "#000000",
+          "button_text_color_hover": "#ffffff",
+          "button_label": "",
+          "button_link": "",
+          "title": "FUL BLU Applications",
+          "title_font_size": "2.4em",
+          "title_font_family": "'Antique Olive', sans-serif;",
+          "section_title_font_weight": "400",
+          "section_title_padding": "0px",
+          "sub_title": "",
+          "subtitle_font_size": "20px",
+          "section_subtitle_padding": "0px",
+          "subtitle_font_family": "'Helvetica Neue'",
+          "title_alignment": "center",
+          "section_text_color": "#00525f",
+          "overall_background_image_url": "",
+          "section_background_color": "#ffffff"
+        }
+      },
+      "3177b0bf-ad10-4a46-a192-63108f8535cf": {
+        "type": "content",
+        "blocks": {
+          "85384c7a-45d3-4b9a-b613-9b94ce431ddf": {
+            "type": "title",
+            "settings": {
+              "text": "We’ve unlocked spirulina’s benefits through our innovation, and FUL BLU is just the beginning",
+              "text_alignment": "center",
+              "heading_type": "h3",
+              "heading_style": "h1",
+              "font_family": "'Antique Olive', sans-serif;",
+              "color": "",
+              "content_width": "content-width",
+              "no_margin": false
+            }
+          }
+        },
+        "block_order": [
+          "85384c7a-45d3-4b9a-b613-9b94ce431ddf"
+        ],
+        "settings": {
+          "content_width": "content-width",
+          "no_margin": false,
+          "add_padding": true,
+          "top_padding": 70,
+          "bottom_padding": 70,
+          "left_padding": 20,
+          "right_padding": 20,
+          "mobile_top_padding": 40,
+          "mobile_bottom_padding": 40,
+          "mobile_left_padding": 20,
+          "mobile_right_padding": 20,
+          "custom_background_color": false,
+          "background_color": "",
+          "visibility": "show-both"
+        }
+      },
+      "10fc07bf-ba1d-44db-a6e7-a939862f4d33": {
+        "type": "image--gallery",
+        "blocks": {
+          "template--19294185029969__10fc07bf-ba1d-44db-a6e7-a939862f4d33-image-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ful_protein_new_96474b1c-fe7a-4a76-8a1c-c73a7a903b36.jpg",
+              "link": "",
+              "title": "",
+              "subheading": "",
+              "background_color": "#ffffff",
+              "color": "#00525f",
+              "overlay-btn-text": "",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#ffffff",
+              "overlay_color": "#323232"
+            }
+          },
+          "template--19294185029969__10fc07bf-ba1d-44db-a6e7-a939862f4d33-image-2": {
+            "type": "image",
+            "settings": {
+              "link": "",
+              "title": "FUL Protein (samples ready in 2024)",
+              "subheading": "A neutral taste, neutral color plant-based protein derived from spirulina with relevant functional advantages.",
+              "background_color": "#ffffff",
+              "color": "#00525f",
+              "overlay-btn-text": "",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#ffffff",
+              "overlay_color": "#323232"
+            }
+          }
+        },
+        "block_order": [
+          "template--19294185029969__10fc07bf-ba1d-44db-a6e7-a939862f4d33-image-1",
+          "template--19294185029969__10fc07bf-ba1d-44db-a6e7-a939862f4d33-image-2"
+        ],
+        "settings": {
+          "colors": "white",
+          "title": "",
+          "richtext": "",
+          "reverse-mobile": false,
+          "remove-spacing": true,
+          "full-width": false,
+          "section-width": "full",
+          "content-position": "hide"
+        }
+      },
+      "1a3f37f6-ed85-4eac-8d35-43ecf4d91577": {
+        "type": "image--gallery",
+        "blocks": {
+          "template--19294185029969__1a3f37f6-ed85-4eac-8d35-43ecf4d91577-image-1": {
+            "type": "image",
+            "settings": {
+              "link": "",
+              "title": "FUL Fatty Acids",
+              "subheading": "FUL Fatty Acids: High in betacarotene and and Omega 6, 9. Currently under development.",
+              "background_color": "#ffffff",
+              "color": "#00525f",
+              "overlay-btn-text": "Want to partner?",
+              "show-gradient-overlay": false,
+              "overlay_font_color": "#ffffff",
+              "overlay_color": "#323232"
+            }
+          },
+          "template--19294185029969__1a3f37f6-ed85-4eac-8d35-43ecf4d91577-image-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/updated.jpg",
+              "link": "",
+              "title": "",
+              "subheading": "",
+              "background_color": "#ffffff",
+              "color": "#00525f",
+              "overlay-btn-text": "",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#ffffff",
+              "overlay_color": "#323232"
+            }
+          }
+        },
+        "block_order": [
+          "template--19294185029969__1a3f37f6-ed85-4eac-8d35-43ecf4d91577-image-1",
+          "template--19294185029969__1a3f37f6-ed85-4eac-8d35-43ecf4d91577-image-2"
+        ],
+        "settings": {
+          "colors": "white",
+          "title": "",
+          "richtext": "",
+          "reverse-mobile": true,
+          "remove-spacing": true,
+          "full-width": false,
+          "section-width": "full",
+          "content-position": "hide"
+        }
+      },
+      "ce78561a-e993-481b-8529-161af0c04c3b": {
+        "type": "image--image-with-text-overlay",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/3_Cans_e264cf52-955f-4bc6-aebb-2eab6656b57a.png",
+          "image_height": "30vw",
+          "bg_image_overlay_opacity": 0,
+          "parallax": false,
+          "title": "",
+          "text": "",
+          "colors": "light",
+          "textPosition": "center",
+          "textAlignment": "center",
+          "heading--text-size": 26,
+          "text--text-size": 18,
+          "link": "",
+          "button_label": "",
+          "button-text": "#ffffff",
+          "button-background": "#333333",
+          "hover-button-text": "#ffffff",
+          "hover-button-background": "#4e4e4e"
+        }
+      },
+      "13d550df-f16c-4029-a863-13befe7563df": {
+        "type": "image--gallery",
+        "blocks": {
+          "template--19294185029969__13d550df-f16c-4029-a863-13befe7563df-image-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Oceans_and_islands.jpg",
+              "link": "",
+              "title": "",
+              "subheading": "",
+              "background_color": "#ffffff",
+              "color": "#00525f",
+              "overlay-btn-text": "",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#ffffff",
+              "overlay_color": "#323232"
+            }
+          },
+          "template--19294185029969__13d550df-f16c-4029-a863-13befe7563df-image-2": {
+            "type": "image",
+            "settings": {
+              "link": "",
+              "title": "Sustainability",
+              "subheading": "FUL Spirulina requires no arable land, pesticides, or fertilizers and captures CO2 200x more efficiently than trees",
+              "background_color": "#ffffff",
+              "color": "#00525f",
+              "overlay-btn-text": "",
+              "show-gradient-overlay": true,
+              "overlay_font_color": "#ffffff",
+              "overlay_color": "#323232"
+            }
+          }
+        },
+        "block_order": [
+          "template--19294185029969__13d550df-f16c-4029-a863-13befe7563df-image-1",
+          "template--19294185029969__13d550df-f16c-4029-a863-13befe7563df-image-2"
+        ],
+        "settings": {
+          "colors": "white",
+          "title": "",
+          "richtext": "",
+          "reverse-mobile": false,
+          "remove-spacing": true,
+          "full-width": false,
+          "section-width": "full",
+          "content-position": "hide"
+        }
+      },
+      "2c2e9897-0ac7-4b99-a413-1a1dc3fdd31f": {
+        "type": "collection--products-block",
+        "disabled": true,
+        "settings": {
+          "title": "Shop Blue Spirulina Beverages",
+          "richtext": "",
+          "collection": "shop_the_range"
+        }
+      },
+      "accordion-00": {
+        "type": "accordion",
+        "blocks": {
+          "164572426857089649-0": {
+            "type": "tab_content",
+            "settings": {
+              "question": "What is FUL?",
+              "text": "<p>FUL comes from one of the most nutrient-dense natural substances on earth: Spirulina, a type of blue-green algae.<\/p><p>FUL is the key ingredient around which the drink is designed – it’s what gives you that kick of vitamins and minerals... and, yes, that signature bad-ass aqua colour.<\/p>"
+            }
+          },
+          "164572426857089649-1": {
+            "type": "tab_content",
+            "settings": {
+              "question": "How is FUL different from Spirulina?",
+              "text": "<p>We wanted to make all the goodness of Spirulina easily available without the very distinct and (dare we say unappealing?) taste. Our team has been working with some of the leading food technologists and flavor scientists in the world to transform Spirulina through a completely natural process into a tasty, unapologetically blue drink you can enjoy throughout your day.<\/p><p><\/p><p>Unlike Blue Spirulina (which consists of a single component in Spirulina – a protein-pigment complex called phycocyanin), FUL contains a more complete nutritional profile (including chlorophyll), hence its turquoise color.<\/p><p><\/p><p>While Spirulina can be cultivated in a highly sustainable way, the majority of (Blue) Spirulina is not produced as sustainably as it could be and even risks contamination with heavy metals.<\/p><p><\/p><p>FUL is derived from an ultra-premium locally grown Spirulina that is produced according to the highest quality and sustainability standards we’ve developed to ensure that we use more CO2 than we produce in the production process (more on this below).<\/p><p><\/p><p>Unlike Spirulina, FUL doesn’t contain vitamin K or high amounts of beta carotene that more aggressively restrict the daily intake amount.<\/p>"
+            }
+          },
+          "164572426857089649-2": {
+            "type": "tab_content",
+            "settings": {
+              "question": "Why is FUL blue? Is it natural?",
+              "text": "<p>Yes, the blue is all natural – we don’t add any artificial colorants to the drink (!) The blue is coming from an antioxidant in the Spirulina called phycocyanin, a protein-pigment complex known for its anti-oxidant and anti-inflammatory properties and helps the body create red blood cells<\/p>"
+            }
+          },
+          "35b1487f-4dd3-426b-a759-c87d2cc4b73b": {
+            "type": "tab_content",
+            "settings": {
+              "question": "Why is FUL good for your health?",
+              "text": "<p>Yes. FUL is a source of natural vitamins, minerals, antioxidants, electrolytes and proteins.<\/p><p>See page <a href=\"https:\/\/fulsuperfood.com\/pages\/about-ful\">About FUL <\/a>for the complete breakdown of “What Makes FUL ?”<\/p>"
+            }
+          },
+          "9be62f74-f3c4-4342-82fb-8bfe7ace9061": {
+            "type": "tab_content",
+            "settings": {
+              "question": "What is the difference between Algae vs. Microalgae vs. Spirulina vs. FUL?",
+              "text": "<p>Algae is a broader term used to refer to aquatic life forms that can conduct photosynthesis – similar to plants but without roots, leaves or stems. Algae range from macroalgae (aka seaweed) to microalgae (microscopic algae invisible to the naked eye). FUL is an extract of Spirulina and can be grouped with microalgae.<\/p><p><\/p><p>Ok now let’s get technical…<\/p><p><\/p><p>We at FUL Foods – like many other experts – consider Spirulina in the microalgae camp, and algae camp more broadly. Spirulina is a cyanobacteria (technically the historical predecessor to microalgae) and is sometimes grouped separately because cyanobacteria are prokaryotic microorganisms (consisting of a single membrane without a nucleus), unlike other types of microalgae that are eukaryotes (where the DNA is contained within a nucleus). Spirulina lacks <a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC3136577\/\">cellulose walls,<\/a> which makes its nutrients simpler to digest compared to other types of eukaryotic microalgae.<\/p><p><\/p><p>Spirulina (like other types of algae and plants) can also photosynthesize, which means they have the ability to produce their own food by using sunlight (converting sunlight, water and carbon dioxide to biomass). Cyanobacteria are named after the word <strong>‘cyan’<\/strong> meaning a <strong>‘turquoise blue’<\/strong> color. Hence, they are also called blue-green algae.<\/p>"
+            }
+          },
+          "336db401-a0d5-41a4-9ed9-d7b483f73a20": {
+            "type": "tab_content",
+            "settings": {
+              "question": "Is FUL in any other products besides a drink?",
+              "text": "<p>Not yet (!) but we are working on incorporating FUL through other healthy and convenient products.<\/p>"
+            }
+          },
+          "14013808-ce5a-4d65-b96b-92bd785124d7": {
+            "type": "tab_content",
+            "settings": {
+              "question": "",
+              "text": ""
+            }
+          }
+        },
+        "block_order": [
+          "164572426857089649-0",
+          "164572426857089649-1",
+          "164572426857089649-2",
+          "35b1487f-4dd3-426b-a759-c87d2cc4b73b",
+          "9be62f74-f3c4-4342-82fb-8bfe7ace9061",
+          "336db401-a0d5-41a4-9ed9-d7b483f73a20",
+          "14013808-ce5a-4d65-b96b-92bd785124d7"
+        ],
+        "disabled": true,
+        "custom_css": [
+          "h2 {font-size: 40px; color: #0097ab;}",
+          "summary {font-size: 28px; color: #0097ab; font-family: \"Antique Olive\" !important;}",
+          ".rte {font-size: 24px;}",
+          "svg {width: 22px; height: 22px;}",
+          "details {border-bottom: 2px solid #00525f;}",
+          ".copy_right {display: initial !important;}"
+        ],
+        "settings": {
+          "colors": "white",
+          "title": "faq",
+          "faq_icon": "caret"
+        }
+      },
+      "main": {
+        "type": "template--page",
+        "disabled": true,
+        "settings": {
+          "page_title_enabled": true,
+          "page_width": "full-width"
+        }
+      },
+      "3dc5f7ee-a501-4069-b7bc-f0717e59b6e1": {
+        "type": "text--rich-text",
+        "custom_css": [
+          ".rich-text .wrapper {padding: 60px 0px;}"
+        ],
+        "settings": {
+          "colors": "dark",
+          "title": "Want to learn more?",
+          "text": "<p>Get in touch for questions or comments.<\/p>",
+          "button_label": "Contact Us!",
+          "button_link": "shopify:\/\/pages\/contact-us"
+        }
+      }
+    },
+    "order": [
+      "image-with-text-overlay",
+      "2d83edb3-86c4-484f-a0d7-d88c756145c4",
+      "68642a6f-0791-4e55-a53c-a6d776320ff3",
+      "768030f3-f9ba-4779-bdba-42b48c013aef",
+      "0590e642-81d3-4406-9d92-1f39d37fb8a8",
+      "48c44f39-7f6e-44f0-9f51-f4fe57d234c6",
+      "f566c35f-2b15-4a21-b97d-985e3aa25c8c",
+      "2fe4ed7f-43bf-4433-aa0f-5591b578f43b",
+      "2da0d3e0-62c4-4ae7-9afc-24115385fdd0",
+      "2080abfc-fd57-4cf6-9626-59f43fe9f948",
+      "fdc2c097-c8a2-4e57-a248-9f423080e0e7",
+      "26c130f2-b24d-4abd-98ee-1280e735d350",
+      "3177b0bf-ad10-4a46-a192-63108f8535cf",
+      "10fc07bf-ba1d-44db-a6e7-a939862f4d33",
+      "1a3f37f6-ed85-4eac-8d35-43ecf4d91577",
+      "ce78561a-e993-481b-8529-161af0c04c3b",
+      "13d550df-f16c-4029-a863-13befe7563df",
+      "2c2e9897-0ac7-4b99-a413-1a1dc3fdd31f",
+      "accordion-00",
+      "main",
+      "3dc5f7ee-a501-4069-b7bc-f0717e59b6e1"
+    ]
+  }
+  
