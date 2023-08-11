@@ -153,6 +153,7 @@
         "template--19294185029969__f566c35f-2b15-4a21-b97d-985e3aa25c8c-image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/9_1.png",
             "link": "",
             "title": "",
             "subheading": "",
@@ -537,6 +538,7 @@
         "template--19294185029969__2080abfc-fd57-4cf6-9626-59f43fe9f948-image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ful_graphic.jpg",
             "link": "",
             "title": "We’ve unlocked spirulina’s benefits through our innovation, and FULblu is just the beginning, see more ---> redirect to FUL protein",
             "subheading": "",
