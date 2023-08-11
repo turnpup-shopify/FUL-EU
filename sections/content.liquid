@@ -1,0 +1,722 @@
+<style>
+{%- if section.settings.custom_background_color -%}
+#shopify-section-{{ section.id }} .fav-content {
+    background-color:{{ section.settings.background_color }};
+}
+{%- endif -%}
+{%- if section.settings.no_margin -%}
+#shopify-section-{{ section.id }} {
+    margin-top:0;
+    margin-bottom:0;
+}
+@media screen and (max-width: 700px) {
+    #shopify-section-{{ section.id }} {
+        margin-top:0;
+        margin-bottom:0;
+    }
+}
+{%- endif -%}
+{%- if section.settings.add_padding -%}
+#shopify-section-{{ section.id }} .fav-content {
+    padding-top: {{ section.settings.top_padding }}px;
+    padding-bottom: {{ section.settings.bottom_padding }}px;
+    padding-left: {{ section.settings.left_padding }}px;
+    padding-right: {{ section.settings.right_padding }}px;
+}
+@media screen and (max-width: 700px) {
+    #shopify-section-{{ section.id }} .fav-content {
+        padding-top: {{ section.settings.mobile_top_padding }}px;
+        padding-bottom: {{ section.settings.mobile_bottom_padding }}px;
+        padding-left: {{ section.settings.mobile_left_padding }}px;
+        padding-right: {{ section.settings.mobile_right_padding }}px;
+    }
+    #shopify-section-{{ section.id }} .h1 {
+        font-size: 24px;
+    }
+}
+{%- endif -%}
+{%- for block in section.blocks -%}
+    {%- if block.type == 'title' and block.settings.color.alpha > 0 -%}
+.title-{{ block.id }} {
+    color:{{ block.settings.color }};
+}
+    {%- endif -%}
+    {%- if block.type == 'text' and block.settings.color.alpha > 0 -%}
+.text-{{ block.id }} {
+    color:{{ block.settings.color }};
+}
+    {%- endif -%}
+    {%- if block.type == 'button' and block.settings.button_style == 'custom' -%}
+#button-{{ block.id }} {
+    background-color:{% if block.settings.background != blank %}{{ block.settings.background }}{% else %}transparent{% endif %};
+    border-color:{% if block.settings.border != blank %}{{ block.settings.border }}{% else %}transparent{% endif %};
+    color:{% if block.settings.color != blank %}{{ block.settings.color }}{% else %}transparent{% endif %};
+}
+#button-{{ block.id }}:hover {
+    background-color:{% if block.settings.background_hover != blank %}{{ block.settings.background_hover }}{% else %}transparent{% endif %};
+    border-color:{% if block.settings.border_hover != blank %}{{ block.settings.border_hover }}{% else %}transparent{% endif %};
+    color:{% if block.settings.color_hover != blank %}{{ block.settings.color_hover }}{% else %}transparent{% endif %};
+}
+    {%- endif -%}
+{%- endfor -%}
+</style>
+
+<div class="fav-content {{ section.settings.content_width }} {{ section.settings.visibility }}">
+    <div class="wrapper">
+        {%- for block in section.blocks -%}
+            {%- case block.type -%}
+            {%- when 'button' -%}
+                <div class="actions" style="text-align: {{ block.settings.text_alignment }};">
+                    <a id="button-{{ block.id }}" href="{{ block.settings.url }}" class="button {{ block.settings.button_style }}" data-text="{{ block.settings.label }}">{{ block.settings.label }}{%- if block.settings.icon != blank -%}{%- include block.settings.icon -%}{%- endif -%}</a>
+                </div>
+            {%- when 'title' -%}
+                {%- if block.settings.text != blank -%}
+                    <{{ block.settings.heading_type }} class="title title-{{ block.id }} {% if block.settings.no_margin %} no-margin{% endif %} {{ block.settings.content_width }} {{ block.settings.heading_style }}"
+                    style="font-family: {{ block.settings.font_family }}; text-align: {{ block.settings.text_alignment }};">
+                        {{ block.settings.text | newline_to_br }}
+                    </{{ block.settings.heading_type }}>
+                {%- endif -%}
+            {%- when 'text' -%}
+                {%- if block.settings.text != blank -%}
+                    <div class="text text-{{ block.id }} {{ block.settings.content_width }}"
+                    style="font-family: {{ block.settings.font_family }}; text-align: {{ block.settings.text_alignment }};">
+                        {{ block.settings.text | newline_to_br }}
+                    </div>
+                {%- endif -%}
+            {%- when 'spacer' -%}
+                <div class="spacer {{ block.settings.visibility }}" style="height:{{ block.settings.height }}px"></div>
+            {%- when 'image' -%}
+                <div class="image {{ block.settings.content_width }} text-align-{{ block.settings.text_alignment }}">
+                    {%- if block.settings.video != blank -%}
+                        {%- if block.settings.wrap -%}
+                            <div class="video-wrapper">
+                        {%- endif -%}
+                        {{ block.settings.video | video_tag : autoplay: true, loop: true, muted: true }}
+                        {%- if block.settings.wrap -%}
+                            </div>
+                        {%- endif -%}
+                    {%- elsif block.settings.image_mobile != blank -%}
+                        {% render 'image', image: block.settings.image_mobile, class: 'show-mobile', lazy: false %}
+                        {% render 'image', image: block.settings.image, class: 'show-desktop', lazy: false %}
+                    {%- else -%}
+                        {% render 'image', block: section.settings.image, lazy: false %}
+                    {%- endif -%}
+                </div>
+            {%- endcase -%}
+        {%- endfor -%}
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Content",
+    "max_blocks": 10,
+    "tag": "section",
+    "class": "section section-content",
+    "settings": [
+    {
+      "type": "select",
+      "id": "content_width",
+      "options": [
+        {
+          "value": "content-width",
+          "label": "Content width"
+        },
+        {
+          "value": "content-edge",
+          "label": "Content edge"
+        },
+        {
+          "value": "full-width",
+          "label": "Full width"
+        },
+        {
+          "value": "full-width-background",
+          "label": "Full width background"
+        },
+        {
+          "value": "full-width-background-edge",
+          "label": "Full width background content edge"
+        },
+        {
+          "value": "width-narrow",
+          "label": "Narrow"
+        },
+        {
+          "value": "width-very-narrow",
+          "label": "Very narrow"
+        }
+      ],
+      "default": "content-width",
+      "label": "Element width"
+    },
+        {
+            "type": "checkbox",
+            "id": "no_margin",
+            "label": "No margin?"
+        },
+        {
+            "type": "checkbox",
+            "id": "add_padding",
+            "label": "Add padding?"
+        },
+        {
+            "type": "range",
+            "id": "top_padding",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "default": 20,
+            "unit": "px",
+            "label": "Top Padding"
+        },
+        {
+            "type": "range",
+            "id": "bottom_padding",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "default": 20,
+            "unit": "px",
+            "label": "Bottom Padding"
+        },
+        {
+            "type": "range",
+            "id": "left_padding",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "default": 20,
+            "unit": "px",
+            "label": "Left Padding"
+        },
+        {
+            "type": "range",
+            "id": "right_padding",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "default": 20,
+            "unit": "px",
+            "label": "Right Padding"
+        },
+        {
+            "type": "range",
+            "id": "mobile_top_padding",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "default": 20,
+            "unit": "px",
+            "label": "Mobile Top Padding"
+        },
+        {
+            "type": "range",
+            "id": "mobile_bottom_padding",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "default": 20,
+            "unit": "px",
+            "label": "Mobile Bottom Padding"
+        },
+        {
+            "type": "range",
+            "id": "mobile_left_padding",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "default": 20,
+            "unit": "px",
+            "label": "Mobile Left Padding"
+        },
+        {
+            "type": "range",
+            "id": "mobile_right_padding",
+            "min": 0,
+            "max": 100,
+            "step": 10,
+            "default": 20,
+            "unit": "px",
+            "label": "Mobile Right Padding"
+        },
+        {
+            "type": "checkbox",
+            "id": "custom_background_color",
+            "label": "Custom background color?"
+        },
+        {
+            "type": "color",
+            "id": "background_color",
+            "label": "Background color"
+        },
+        {
+            "type": "select",
+            "id": "visibility",
+            "label": "Visibility",
+            "default": "show-both",
+            "options": [
+                {
+                "value": "show-both",
+                "label": "Always visible"
+                },
+                {
+                "value": "show-desktop",
+                "label": "Show on desktop"
+                },
+                {
+                "value": "show-mobile",
+                "label": "Show on mobile"
+                },
+                {
+                "value": "hidden",
+                "label": "Hidden"
+                }
+            ]
+        }
+    ],
+    "blocks": [
+        {
+            "type": "button",
+            "name": "Button",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "label",
+                    "default": "Button label",
+                    "label": "Label"
+                },
+                {
+                    "type": "url",
+                    "id": "url",
+                    "label": "URL"
+                },
+                {
+                    "type": "select",
+                    "id": "button_style",
+                    "options": [
+                        {
+                        "value": "",
+                        "label": "Default"
+                        },
+                        {
+                        "value": "secondary",
+                        "label": "Secondary"
+                        },
+                        {
+                        "value": "custom",
+                        "label": "Custom"
+                        }
+                    ],
+                    "default": "",
+                    "label": "Style"
+                },
+                {
+                    "type": "color",
+                    "default": "#FFF",
+                    "id": "background",
+                    "label": "Background color"
+                },
+                {
+                    "type": "color",
+                    "default": "#1B2330",
+                    "id": "color",
+                    "label": "Color"
+                },
+                {
+                    "type": "color",
+                    "default": "#1B2330",
+                    "id": "border",
+                    "label": "Border color"
+                },
+                {
+                    "type": "color",
+                    "default": "#1B2330",
+                    "id": "background_hover",
+                    "label": "Background hover color"
+                },
+                {
+                    "type": "color",
+                    "default": "#FFF",
+                    "id": "color_hover",
+                    "label": "Hover color"
+                },
+                {
+                    "type": "color",
+                    "default": "#1B2330",
+                    "id": "border_hover",
+                    "label": "Border color"
+                },
+                {
+                    "type": "select",
+                    "id": "text_alignment",
+                    "options": [
+                        {
+                            "value": "left",
+                            "label": "Left"
+                        },
+                        {
+                            "value": "center",
+                            "label": "Center"
+                        },
+                        {
+                            "value": "right",
+                            "label": "Right"
+                        }
+                    ],
+                    "default": "center",
+                    "label": "Alignment"
+                }
+            ]
+        },
+        {
+            "type": "title",
+            "name": "Title",
+            "settings": [
+                {
+                    "type": "textarea",
+                    "id": "text",
+                    "default": "Sample title",
+                    "label": "Title"
+                },
+                {
+                    "type": "select",
+                    "id": "text_alignment",
+                    "options": [
+                        {
+                            "value": "left",
+                            "label": "Left"
+                        },
+                        {
+                            "value": "center",
+                            "label": "Center"
+                        },
+                        {
+                            "value": "right",
+                            "label": "Right"
+                        }
+                    ],
+                    "default": "center",
+                    "label": "Alignment"
+                },
+                {
+                    "type": "select",
+                    "id": "heading_type",
+                    "label": "Heading type",
+                    "default": "h1",
+                    "options": [
+                        {
+                        "value": "h1",
+                        "label": "H1"
+                        },
+                        {
+                        "value": "h2",
+                        "label": "H2"
+                        },
+                        {
+                        "value": "h3",
+                        "label": "H3"
+                        },
+                        {
+                        "value": "h4",
+                        "label": "H4"
+                        },
+                        {
+                        "value": "h5",
+                        "label": "H5"
+                        },
+                        {
+                        "value": "h6",
+                        "label": "H6"
+                        }
+                    ]
+                    },
+                    {
+                    "type": "select",
+                    "id": "heading_style",
+                    "label": "Heading style",
+                    "default": "h1",
+                    "options": [
+                        {
+                        "value": "h1",
+                        "label": "H1"
+                        },
+                        {
+                        "value": "h2",
+                        "label": "H2"
+                        },
+                        {
+                        "value": "h3",
+                        "label": "H3"
+                        },
+                        {
+                        "value": "h4",
+                        "label": "H4"
+                        },
+                        {
+                        "value": "h5",
+                        "label": "H5"
+                        },
+                        {
+                        "value": "h6",
+                        "label": "H6"
+                        },
+                        {
+                        "value": "h7",
+                        "label": "H7"
+                        },
+                        {
+                        "value": "h8",
+                        "label": "H8"
+                        }
+                    ]
+                },                
+                {
+                    "type": "text",
+                    "id": "font_family",
+                    "label": "Font Family Override",
+                    "default": "'Antique Olive', sans-serif;",
+                    "info": "leave blank for default font"
+                },
+                {
+                    "type": "color",
+                    "id": "color",
+                    "label": "Color"
+                },
+                {
+                    "type": "select",
+                    "id": "content_width",
+                    "options": [
+                        {
+                        "value": "content-width",
+                        "label": "Content width"
+                        },
+                        {
+                        "value": "content-edge",
+                        "label": "Content edge"
+                        },
+                        {
+                        "value": "full-width",
+                        "label": "Full width"
+                        },
+                        {
+                        "value": "full-width-background",
+                        "label": "Full width background"
+                        },
+                        {
+                        "value": "width-narrow",
+                        "label": "Narrow"
+                        },
+                        {
+                        "value": "width-very-narrow",
+                        "label": "Very narrow"
+                        }
+                    ],
+                    "default": "content-width",
+                    "label": "Content width"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "no_margin",
+                    "label": "No margin"
+                }
+            ]
+        },
+        {
+            "type": "spacer",
+            "name": "Spacer",
+            "settings": [
+                {
+                    "type": "range",
+                    "id": "height",
+                    "min": 10,
+                    "max": 100,
+                    "step": 10,
+                    "default": 20,
+                    "unit": "px",
+                    "label": "Height"
+                },
+                {
+                    "type": "select",
+                    "id": "visibility",
+                    "label": "Visibility",
+                    "default": "show-both",
+                    "options": [
+                        {
+                        "value": "show-both",
+                        "label": "Always visible"
+                        },
+                        {
+                        "value": "show-desktop",
+                        "label": "Show on desktop"
+                        },
+                        {
+                        "value": "show-mobile",
+                        "label": "Show on mobile"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "image",
+            "name": "Image or Video",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image_mobile",
+                    "label": "Mobile Image"
+                },
+                {
+                    "type": "video",
+                    "id": "video",
+                    "label": "Video"
+                },
+                {
+                    "type": "checkbox",
+                    "id": "wrap_video",
+                    "label": "Wrap video",
+                    "info": "Wrap video to make it responsive"
+                },
+                {
+                    "type": "select",
+                    "id": "content_width",
+                    "options": [
+                        {
+                        "value": "content-width",
+                        "label": "Content width"
+                        },
+                        {
+                        "value": "content-edge",
+                        "label": "Content edge"
+                        },
+                        {
+                        "value": "full-width",
+                        "label": "Full width"
+                        },
+                        {
+                        "value": "full-width-background",
+                        "label": "Full width background"
+                        },
+                        {
+                        "value": "width-narrow",
+                        "label": "Narrow"
+                        },
+                        {
+                        "value": "width-very-narrow",
+                        "label": "Very narrow"
+                        }
+                    ],
+                    "default": "content-width",
+                    "label": "Content width"
+                },
+                {
+                    "type": "select",
+                    "id": "text_alignment",
+                    "options": [
+                        {
+                            "value": "left",
+                            "label": "Left"
+                        },
+                        {
+                            "value": "center",
+                            "label": "Center"
+                        },
+                        {
+                            "value": "right",
+                            "label": "Right"
+                        }
+                    ],
+                    "default": "center",
+                    "label": "Alignment"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "name": "Text",
+            "settings": [
+                {
+                    "type": "richtext",
+                    "id": "text",
+                    "label": "Text"
+                },
+                {
+                    "type": "text",
+                    "id": "font_family",
+                    "label": "Font Family Override",
+                    "default": "'Antique Olive', sans-serif;",
+                    "info": "leave blank for default font"
+                },
+                {
+                    "type": "select",
+                    "id": "text_alignment",
+                    "options": [
+                        {
+                            "value": "left",
+                            "label": "Left"
+                        },
+                        {
+                            "value": "center",
+                            "label": "Center"
+                        },
+                        {
+                            "value": "right",
+                            "label": "Right"
+                        }
+                    ],
+                    "default": "center",
+                    "label": "Alignment"
+                },
+                {
+                    "type": "color",
+                    "id": "color",
+                    "label": "Color"
+                },
+                {
+                    "type": "select",
+                    "id": "content_width",
+                    "options": [
+                        {
+                        "value": "content-width",
+                        "label": "Content width"
+                        },
+                        {
+                        "value": "content-edge",
+                        "label": "Content edge"
+                        },
+                        {
+                        "value": "full-width",
+                        "label": "Full width"
+                        },
+                        {
+                        "value": "full-width-background",
+                        "label": "Full width background"
+                        },
+                        {
+                        "value": "width-narrow",
+                        "label": "Narrow"
+                        },
+                        {
+                        "value": "width-very-narrow",
+                        "label": "Very narrow"
+                        }
+                    ],
+                    "default": "content-width",
+                    "label": "Content width"
+                }
+            ]
+        }
+    ],
+    "presets": [
+            {
+                "name": "Content"
+            }
+    ]
+}
+{% endschema %}

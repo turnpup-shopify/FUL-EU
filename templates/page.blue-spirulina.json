@@ -404,7 +404,7 @@
               "subtitle_margin_top": "8px",
               "description": "",
               "description_font_size": "30px",
-              "description_font_size_mobile": "14px",
+              "description_font_size_mobile": "13px",
               "description_font_family": "'Helvetica Neue'",
               "description_font_color": "#000000",
               "description_line_height": "1.3",
