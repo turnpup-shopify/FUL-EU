@@ -1,0 +1,8 @@
+{% assign currencySize = 0 %}
+{% assign currencyCodes = "EUR " | rstrip | split: ' ' %}
+{% assign currencySymbols = "€ " | rstrip | split: ' ' %}
+{% assign defaultCurrencyCode = "EUR" %}
+{% assign defaultCurrencySymbol = "€" %}
+
+    {% render 'scm-currency-switcher-08' ,currencySize : currencySize, currencyCodes : currencyCodes ,currencySymbols :currencySymbols,defaultCurrencyCode: defaultCurrencyCode,defaultCurrencySymbol:defaultCurrencySymbol %}
+    

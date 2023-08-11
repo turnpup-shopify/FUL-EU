@@ -1,0 +1,279 @@
+{
+  "sections": {
+    "image-with-text-overlay": {
+      "type": "image--image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/0_Row_Background.jpg",
+        "image_height": "30vw",
+        "bg_image_overlay_opacity": 5,
+        "parallax": false,
+        "title": "frequently asked questions",
+        "text": "",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 50,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#000000",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#4e4e4e"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "full-width"
+      }
+    },
+    "accordion-00": {
+      "type": "accordion",
+      "blocks": {
+        "164572426857089649-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What is FUL?",
+            "text": "<p>FUL comes from one of the most nutrient-dense natural substances on earth: Spirulina, a type of blue-green algae.<\/p><p>FUL is the key ingredient around which the drink is designed – it’s what gives you that kick of vitamins and minerals... and, yes, that signature bad-ass aqua colour.<\/p>"
+          }
+        },
+        "164572426857089649-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How is FUL different from Spirulina?",
+            "text": "<p>We wanted to make all the goodness of Spirulina easily available without the very distinct and (dare we say unappealing?) taste. Our team has been working with some of the leading food technologists and flavor scientists in the world to transform Spirulina through a completely natural process into a tasty, unapologetically blue drink you can enjoy throughout your day.<\/p><p><\/p><p>Unlike Blue Spirulina (which consists of a single component in Spirulina – a protein-pigment complex called phycocyanin), FUL contains a more complete nutritional profile (including chlorophyll), hence its turquoise color.<\/p><p><\/p><p>While Spirulina can be cultivated in a highly sustainable way, the majority of (Blue) Spirulina is not produced as sustainably as it could be and even risks contamination with heavy metals.<\/p><p><\/p><p>FUL is derived from an ultra-premium locally grown Spirulina that is produced according to the highest quality and sustainability standards we’ve developed to ensure that we use more CO2 than we produce in the production process (more on this below).<\/p><p><\/p><p>Unlike Spirulina, FUL doesn’t contain vitamin K or high amounts of beta carotene that more aggressively restrict the daily intake amount.<\/p>"
+          }
+        },
+        "164572426857089649-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Why is FUL blue? Is it natural?",
+            "text": "<p>Yes, the blue is all natural – we don’t add any artificial colorants to the drink (!) The blue is coming from an antioxidant in the Spirulina called phycocyanin, a protein-pigment complex known for its anti-oxidant and anti-inflammatory properties and helps the body create red blood cells<\/p>"
+          }
+        },
+        "35b1487f-4dd3-426b-a759-c87d2cc4b73b": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Why is FUL good for your health?",
+            "text": "<p>Yes. FUL is a source of natural vitamins, minerals, antioxidants, electrolytes and proteins.<\/p><p>See page <a href=\"https:\/\/fulsuperfood.com\/pages\/about-ful\">About FUL <\/a>for the complete breakdown of “What Makes FUL ?”<\/p>"
+          }
+        },
+        "9be62f74-f3c4-4342-82fb-8bfe7ace9061": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What is the difference between Algae vs. Microalgae vs. Spirulina vs. FUL?",
+            "text": "<p>Algae is a broader term used to refer to aquatic life forms that can conduct photosynthesis – similar to plants but without roots, leaves or stems. Algae range from macroalgae (aka seaweed) to microalgae (microscopic algae invisible to the naked eye). FUL is an extract of Spirulina and can be grouped with microalgae.<\/p><p><\/p><p>Ok now let’s get technical…<\/p><p><\/p><p>We at FUL Foods – like many other experts – consider Spirulina in the microalgae camp, and algae camp more broadly. Spirulina is a cyanobacteria (technically the historical predecessor to microalgae) and is sometimes grouped separately because cyanobacteria are prokaryotic microorganisms (consisting of a single membrane without a nucleus), unlike other types of microalgae that are eukaryotes (where the DNA is contained within a nucleus). Spirulina lacks <a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC3136577\/\">cellulose walls,<\/a> which makes its nutrients simpler to digest compared to other types of eukaryotic microalgae.<\/p><p><\/p><p>Spirulina (like other types of algae and plants) can also photosynthesize, which means they have the ability to produce their own food by using sunlight (converting sunlight, water and carbon dioxide to biomass). Cyanobacteria are named after the word <strong>‘cyan’<\/strong> meaning a <strong>‘turquoise blue’<\/strong> color. Hence, they are also called blue-green algae.<\/p>"
+          }
+        },
+        "336db401-a0d5-41a4-9ed9-d7b483f73a20": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Is FUL in any other products besides a drink?",
+            "text": "<p>Not yet (!) but we are working on incorporating FUL through other healthy and convenient products.<\/p>"
+          }
+        },
+        "14013808-ce5a-4d65-b96b-92bd785124d7": {
+          "type": "tab_content",
+          "settings": {
+            "question": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "164572426857089649-0",
+        "164572426857089649-1",
+        "164572426857089649-2",
+        "35b1487f-4dd3-426b-a759-c87d2cc4b73b",
+        "9be62f74-f3c4-4342-82fb-8bfe7ace9061",
+        "336db401-a0d5-41a4-9ed9-d7b483f73a20",
+        "14013808-ce5a-4d65-b96b-92bd785124d7"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px; color: #0097ab;}",
+        "summary {font-size: 28px; color: #0097ab; font-family: \"Antique Olive\" !important;}",
+        ".rte {font-size: 24px;}",
+        "svg {width: 22px; height: 22px;}",
+        "details {border-bottom: 2px solid #00525f;}",
+        ".copy_right {display: initial!important;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "FUL",
+        "faq_icon": "caret"
+      }
+    },
+    "accordion-01": {
+      "type": "accordion",
+      "blocks": {
+        "164572438495310fd3-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Why is consuming FUL good for the planet?",
+            "text": "<p>For starters, FUL uses fewer natural resources than most sources of nutrition.<\/p><p><\/p><p><strong>✓ NO ARABLE LAND:<\/strong> Unlike plant-based staples such as pea or soy, FUL does not require arable land – a limited and diminishing resource the pursuit of which often causes massive deforestation and the overuse of which often leaves the land unusable. FUL can even be grown on top of buildings or even in the desert – turning underutilized and\/or local space into nutrition-generation centers.<\/p><p><br\/><\/p><p><strong>✓ NO FERTILIZERS AND PESTICIDES:<\/strong> FUL uses no fertilizers or pesticides that can cause harmful chemical runoffs instigating algae blooms and destroying natural water ecosystems.<\/p><p><br\/><\/p><p><strong>✓ LIMITED FRESH WATER:<\/strong> FUL also uses very limited fresh water in its production. Unlike other types of crops which absorb water through the ground, FUL is kept in a closed loop system allowing 85% of water used in the production process to be collected after harvesting and reutilized during the next cultivation.<\/p><p><br\/><\/p><p><strong>✓ MORE NUTRIENTS:<\/strong> FUL leverages on the potential of microalgae to produce nutrients. Thanks to its high photosynthetic efficiency, it produces more protein than soy beans.<\/p><p><br\/><\/p><p>But beyond doing <strong>“less harm”<\/strong> to our ecosystem, FUL actually does some good!<\/p><p><br\/><\/p><p><strong>FUL uses more CO2 (coming from other waste streams or captured from the air) than it emits in the production process.<\/strong><\/p><p><\/p><p>Our Spirulina uses 1.8x its weight in CO2 …<\/p><p>While other plants (and food sources) perform photosynthesis – turning CO2 into nutrients and oxygen – (micro)algae are more efficient at this process and can even capture more than 200 times the amount of CO2 than trees.<\/p><p><\/p><p>Why? Trees and other plants capture CO2 only through photosynthetic pigments such as chlorophyll-containing parts of its structure (i.e. leaves). Chlorophyll is essential to perform photosynthesis (in which CO2 is converted into O2 and other nutrients). Leaves are often only a small fraction of a tree (think Trunk! Branches! Stems!) limiting its ability to continually perform photosynthesis and thus take in CO2 and produce O2 and nutrients. On the other hand, algae can have a higher density of chlorophyll in its mass – allowing them to perform more photosynthesis and more consistently. Carotenoids and other types of photosynthetic pigments (like our beloved blue phycocyanine)that also transform CO2 into energy are also found in algae. Trees take years to grow and accumulate carbon in its various parts (trunk, leaves, fruits), whereas algae grow more quickly and therefore more efficiently convert CO2 into nutrients – not to mention that microalgae do not have a fixed size and - unlike trees - and can infinitely reproduce.<\/p>"
+          }
+        },
+        "164572438495310fd3-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Is FUL Carbon Negative? Climate Positive? What does it all mean?",
+            "text": "<p>There are many ways to measure our food’s impact on the planet – emissions produced (or in our case recycled), as well as the use of key resources like arable land and fresh water.<\/p><p><strong>Carbon Balance<\/strong><\/p><p>Unlike most other nutrition sources which emit more CO2 and greenhouse gases than they convert into nutrients and oxygen, FUL Spirulina’s production actually converts more CO2 (from industrial waste streams like bioethanol production) into nutrients and oxygen than it emits in its production process. Therefore the nutrients from FUL Spirulina have a net negative CO2 balance.<\/p><p>FUL Spirulina Drink does not have a carbon negative balance because other supply chain components like the packaging or the transportation produce emissions. However, we are working with specialists in each step of our supply chain to reduce emissions as much as possible, applying best practices and best available technologies.<\/p><p><strong>Climate Positive<\/strong><\/p><p>There is much more than CO2 emissions to assess the sustainability or the environmental impact of a substance. Beyond its ability to efficiently convert CO2 into nutrients, FUL Spirulina’s process is also resource efficient using very limited freshwater and avoiding the use altogether of arable land, fertilizers and pesticides. Agricultural expansion accounts for 24% of food emissions due to the conversion of forests, grasslands and other carbon ‘sinks’ into cropland or pasture. FUL does not require arable land, therefore, each gram of nutrients produced through the FUL Process instead of other mainstream agricultural practices, has a positive impact on the planet.<\/p><p><strong>Carbon Sink<\/strong><\/p><p>FUL Spirulina is also not a carbon sink (i.e. it does not sequester carbon for more than 100 years) given that as a food it is consumed and slowly re-released into the atmosphere as we as human perform certain biological functions like breathing out CO2. There are many factors affecting the amount of CO2 that us as humans release back, for example, our diet, our weight, how much we exercise, so it is difficult to quantify the exact impact of FUL Spirulina in the human biological release. However, given the holistic sustainability benefits, our nutrients have a climate positive impact on the planet.<\/p><p><strong>Carbon Footprint<\/strong><\/p><p>FUL Spirulina’s carbon footprint depends on the framework used (whether carbon removal or carbon conversion is acknowledged). Many widely adopted frameworks only acknowledge carbon removal, which is why we opt to use “climate positive” and discuss the carbon balance in regards to our product and how it compares with other sources of nutrition.<\/p>"
+          }
+        },
+        "164572438495310fd3-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "If microalgae is so efficient at capturing CO2, why don’t we let it serve as a carbon sink?",
+            "text": "<p>Microalgae are indeed more efficient at capturing CO2 than trees and could be explored as carbon sinks. Like trees, algae can be grown to capture ambient CO2, remove carbon dioxide and sequester it in the form of biomass. <\/p><p><\/p><p>We at FUL foods also see significant potential in microalgae as a low carbon footprint food source – especially when you calculate the significantly lower environmental impact of growing microalgae for food vis-a-vis the other key sources of animal and even plant based nutrition.<\/p><p><\/p><p>Unlike trees and plants where only the fruits or leaves can be consumed, all the microalgae biomass can be consumed by humans. Microalgae contains an immense amount of nutrients (protein, minerals and vitamins) that are directly bioavailable by the human body. Microalgae, basically, transforms CO2 and sunlight into available nutrients. With over 60% of protein content, microalgae is a high quality plant-based protein source.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164572438495310fd3-0",
+        "164572438495310fd3-1",
+        "164572438495310fd3-2"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px; color: #0097ab; text-transform: lowercase;}",
+        "summary {font-size: 28px; color: #0097ab; font-family: \"Antique Olive\" !important;}",
+        ".rte {font-size: 24px;}",
+        "svg {width: 22px; height: 22px;}",
+        "details {border-bottom: 2px solid #00525f;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "Sustainability",
+        "faq_icon": "caret"
+      }
+    },
+    "accordion-02": {
+      "type": "accordion",
+      "blocks": {
+        "164572442464b4aa49-0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Why is FULwater blue? Is it natural?",
+            "text": "<p>We don’t add any artificial colorants to the drink (!) The blue is coming from the goodness of an antioxidant in the microalgae called phycocyanin. Phycocyanin is a protein-pigment complex and has known anti-oxidant and anti-inflammatory properties and helps the body create red blood cells.<\/p>"
+          }
+        },
+        "164572442464b4aa49-1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "When should I drink FULwater?",
+            "text": "<p>FUL can be consumed at any point of the day. Many people seem to like it as a midday pick-me-up, after a workout (“nature’s replenishment”), with a meal or as a social refreshment. #bluedrinking<\/p>"
+          }
+        },
+        "164572442464b4aa49-2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What pairs well with FULwater?",
+            "text": "<p>Like other sparkling drinks, FUL can be excellent in cocktails (including non alcoholic options). We suggest substituting FULwater in any cocktail recipe that calls for soda water or tonic if you are looking for a blue\/greener and lower calorie options.<\/p>"
+          }
+        },
+        "a8d2e693-a9da-47ce-88d3-850a89f4415e": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can my children drink FULwater?",
+            "text": "<p>Yes! FUL has low sugar and no artificial flavors\/colouring (unlike a like a lot of other refreshing beverages kids tend to like…) Plus, it is a great way for the little ones to get their vitamins and minerals (including calcium for strong bones!). Maybe you even score some cool points for offering such a sustainable and crazy-blue colored drink?? #smurfsoda<\/p>"
+          }
+        },
+        "4477bd93-71bd-4416-b9fb-ed0e661669f8": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can I drink FUL if I’m pregnant?",
+            "text": "<p>Yes!<\/p>"
+          }
+        },
+        "2062b6a7-51f3-493c-a39d-94801b1aaba1": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can I replace a meal with FULwater?",
+            "text": "<p>FULwater has 30 calories, so not advised…<\/p>"
+          }
+        },
+        "994c7a49-4756-4da3-97df-fe3b23ba0810": {
+          "type": "tab_content",
+          "settings": {
+            "question": "There is some sedimentation at the bottom of my drink – what is this?",
+            "text": "<p>Given that this is a natural product, like other natural juices or beverages, some of the nutrients from the spirulina or the added juices (including lime) can separate and drop to the bottom. Best to give the drink a bit of a gentle shake to make sure you get all the flavor and nutrition in your next gulp!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "164572442464b4aa49-0",
+        "164572442464b4aa49-1",
+        "164572442464b4aa49-2",
+        "a8d2e693-a9da-47ce-88d3-850a89f4415e",
+        "4477bd93-71bd-4416-b9fb-ed0e661669f8",
+        "2062b6a7-51f3-493c-a39d-94801b1aaba1",
+        "994c7a49-4756-4da3-97df-fe3b23ba0810"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px; color: #0097ab;}",
+        "summary {font-size: 28px; color: #0097ab; font-family: \"Antique Olive\" !important;}",
+        ".rte {font-size: 24px;}",
+        "svg {width: 22px; height: 22px;}",
+        "details {border-bottom: 2px solid #00525f;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "FULwater",
+        "faq_icon": "caret"
+      }
+    },
+    "43524d79-4d2e-4920-bfde-f34ab84d9e02": {
+      "type": "accordion",
+      "blocks": {
+        "db8a5921-92ae-4e76-a1ff-f3afb858aae0": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Where can I find FULwater?",
+            "text": "<p>For now, you can buy FULwater online (we ship in all Europe, the UK and the US) and in selected stores, cafes, bars, fitness studios and restaurants.<\/p><p>Check out our Instagram @drink_ful for more details on where to drink blue.<\/p>"
+          }
+        },
+        "8f4cd865-7a1c-4bb9-b8ef-bd256bcf8bb2": {
+          "type": "tab_content",
+          "settings": {
+            "question": "FUL is not available in my area, what can I do?",
+            "text": "<p>Send us an email at <a href=\"mailto:info@fulfoods.com\" title=\"mailto:info@fulfoods.com\">info@fulfoods.com<\/a><\/p>"
+          }
+        },
+        "3702ce02-ada1-4e2c-8d7c-cbb8f3164dcf": {
+          "type": "tab_content",
+          "settings": {
+            "question": "I am stockist: how do I buy FUL?",
+            "text": "<p>Send us an email at <a href=\"mailto:info@fulfoods.com\" title=\"mailto:info@fulfoods.com\">info@fulfoods.com<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "db8a5921-92ae-4e76-a1ff-f3afb858aae0",
+        "8f4cd865-7a1c-4bb9-b8ef-bd256bcf8bb2",
+        "3702ce02-ada1-4e2c-8d7c-cbb8f3164dcf"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px; color: #0097ab; text-transform: inherit;}",
+        "summary {font-size: 28px; color: #0097ab; font-family: \"Antique Olive\" !important;}",
+        ".rte {font-size: 24px;}",
+        "svg {width: 22px; height: 22px;}",
+        "details {border-bottom: 2px solid #00525f;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "buying FUL",
+        "faq_icon": "caret"
+      }
+    }
+  },
+  "order": [
+    "image-with-text-overlay",
+    "main",
+    "accordion-00",
+    "accordion-01",
+    "accordion-02",
+    "43524d79-4d2e-4920-bfde-f34ab84d9e02"
+  ]
+}

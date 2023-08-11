@@ -1,0 +1,314 @@
+{
+  "sections": {
+    "slideshow-00": {
+      "type": "image--slideshow",
+      "blocks": {
+        "164813303069db6705-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_Founders_Header.jpg",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#4e4e4e",
+            "captionHorizontal": "center",
+            "captionAlignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "164813303069db6705-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": false,
+        "text-below-image": false,
+        "slider-slide-time": 5,
+        "caption-heading-size": 32,
+        "caption-subheading-size": 16,
+        "caption-button-size": 16,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "rich-text-00": {
+      "type": "text--rich-text",
+      "disabled": true,
+      "custom_css": [
+        "h2 {color: #0097ab; font-size: 40px;}",
+        "p {font-size: 20px;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "women owned. women run.",
+        "text": "<p>We’re a Netherlands-based foodtech startup founded by three friends determined to unlock the incredible power of microalgae, to make products that breathe life back into not just you but the world we live in.<br\/><\/p><p>Over the years, the nutritional benefits of Spirulina - and (micro) algae in general - have made it a staple ingredient in the vitamin and supplement aisle. But we wanted to make this rich source of natural plant-based nutrients more accessible to people, so we’ve focused on improving Spirulina’s taste and incorporating spirulina in convenient on-the-go products. We were also inspired by Spirulina’s potential to be produced in a way that positively benefits the planet, so we developed our own sustainable production process that efficiently recycles CO2 to grow our Spirulina. Since then we’ve developed a passion (bordering on obsession) for unleashing the climate and human health potential of the tiny superhero.<br\/><\/p><p><strong>We're building our company around our FUL core values of “Guts, Grit,<\/strong><\/p><p><strong> Grace and Good” interested in joining our journey? Shoot us a note at <\/strong><a href=\"mailto:info@fulfoods.com\" target=\"_blank\" title=\"mailto:info@fulfoods.com\"><strong>info@fulfoods.com<\/strong><\/a><\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "ec04d402-5532-47a8-96ae-7c12e56b1f25": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--18290490736977__ec04d402-5532-47a8-96ae-7c12e56b1f25-167945360689bdbdf8-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 30px 0;\"><div class=\"wrapper-padded\">\n<h2 class=\"homepage-sections--title\">women owned. women run.<\/h2>\n<div class=\"rte featured-row__subtext textarea\">\n<p>We’re a Netherlands-based foodtech startup founded by three friends determined to unlock the incredible power of microalgae, to make products that breathe life back into not just you but the world we live in.<br><\/p>\n<p>Over the years, the nutritional benefits of Spirulina - and (micro) algae in general - have made it a staple ingredient in the vitamin and supplement aisle. But we wanted to make this rich source of natural plant-based nutrients more accessible to people, so we’ve focused on improving Spirulina’s taste and incorporating spirulina in convenient on-the-go products. We were also inspired by Spirulina’s potential to be produced in a way that positively benefits the planet, so we developed our own sustainable production process that efficiently recycles CO<sub>2<\/sub> to grow our Spirulina. Since then we’ve developed a passion (bordering on obsession) for unleashing the climate and human health potential of the tiny superhero.<br><\/p>\n<p><strong>We're building our company around our FUL core values of “Guts, Grit, Grace and Good” Interested In Joining our journey? Shoot us a note at <\/strong><a href=\"mailto:info@fulfoods.com\" target=\"_blank\" title=\"mailto:info@fulfoods.com\"><strong>info@fulfoods.com<\/strong><\/a><\/p>\n<\/div>\n<\/div><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--18290490736977__ec04d402-5532-47a8-96ae-7c12e56b1f25-167945360689bdbdf8-0"
+      ],
+      "custom_css": [
+        "h2 {color: #0097ab; font-size: 40px;}",
+        "p {font-size: 20px;}",
+        "div {max-width: 900px; margin: 0 auto;}"
+      ],
+      "settings": {
+      }
+    },
+    "9a23cda5-56e2-4611-a64b-82c4b518d859": {
+      "type": "text--rich-text",
+      "custom_css": [
+        "h2 {color: #0097ab; font-size: 40px;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "meet our founders",
+        "text": "",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "1c18ac4c-4dab-4d96-8313-b2372500e611": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--18290490736977__1c18ac4c-4dab-4d96-8313-b2372500e611-167868810971bfa432-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_Sara.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "template--18290490736977__1c18ac4c-4dab-4d96-8313-b2372500e611-167868810971bfa432-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_181.png",
+            "link": "",
+            "title": "Sara",
+            "subheading": "<p>Living and breathing entrepreneurship since she was born (well, kind of) Sara helped run her family business outside Milan where she honed her skills in IP and financial strategy and in true Italian fashion, carried with her a deep passion for food over to the Lowlands.<\/p><p><strong>Favorite algae fact<\/strong>: There are more algae in the oceans than stars in the Universe.<\/p>",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "template--18290490736977__1c18ac4c-4dab-4d96-8313-b2372500e611-167868810971bfa432-0",
+        "template--18290490736977__1c18ac4c-4dab-4d96-8313-b2372500e611-167868810971bfa432-1"
+      ],
+      "custom_css": [
+        ".responsive-image-wrapper {width: 100%;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": true,
+        "section-width": "full",
+        "content-position": "overlay"
+      }
+    },
+    "d964b461-9926-438d-ba0e-51b5d6105334": {
+      "type": "image--gallery",
+      "blocks": {
+        "89d813da-c10e-46b2-b526-b66d43eb00d1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_181.png",
+            "link": "",
+            "title": "Julia",
+            "subheading": "<p>\"Valley hopping\" Julia made the move from Silicon Valley to Europe’s Food Valley bringing with her a love of innovation and launching startups.<\/p><p><strong>Favorite algae fact: <\/strong>Less than 2.5 billion years ago, the ancestors of spirulina got so good at gobbling up CO<sub>2<\/sub> and producing oxygen; that they \"accidentally\" cooled the earth so much that they calised a 300 million year-long ice age.<\/p>",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "173cf707-46e3-4fe1-93ad-c94cb9ff6237": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_Julia.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "89d813da-c10e-46b2-b526-b66d43eb00d1",
+        "173cf707-46e3-4fe1-93ad-c94cb9ff6237"
+      ],
+      "custom_css": [
+        ".responsive-image-wrapper {width: 100%;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": true,
+        "section-width": "full",
+        "content-position": "overlay"
+      }
+    },
+    "17a9f1cb-667a-403e-9d23-4f1fa7787d8e": {
+      "type": "image--gallery",
+      "blocks": {
+        "975b61b4-606b-47a0-985f-f9204699c804": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_Cristina.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "db658922-ea7d-4a7b-8203-b60e369de23c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_181.png",
+            "link": "",
+            "title": "Cristina",
+            "subheading": "<p>After building a global career leading large scale decarbonization projects in the energy world, Cristina  decided to apply her chemical and industrial engineering expertise to unlocking the potential of a much greener gold.<\/p><p><strong>Favorite algae fact:<\/strong> Most people think “algae” is pond scum. What they don't know is that without algae, none of us would exist.<\/p>",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "975b61b4-606b-47a0-985f-f9204699c804",
+        "db658922-ea7d-4a7b-8203-b60e369de23c"
+      ],
+      "custom_css": [
+        ".responsive-image-wrapper {width: 100%;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": true,
+        "section-width": "full",
+        "content-position": "overlay"
+      }
+    },
+    "2c3684c1-7e96-423d-ad2c-90e68f5ef392": {
+      "type": "image--gallery",
+      "blocks": {
+        "23a1acd5-bdab-4f88-ac11-c9eba2384abc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_181.png",
+            "link": "",
+            "title": "Mother Nature",
+            "subheading": "<p>No joke, we’ve appointed mother nature as our first board member as the first stakeholder to whom we hold ourselves accountable. She’s a real force, but helps steer us in the right direction.<\/p>",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "fe514205-5c8e-456c-8ff7-518da5f51b02": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_Mother_Nature.jpg",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "23a1acd5-bdab-4f88-ac11-c9eba2384abc",
+        "fe514205-5c8e-456c-8ff7-518da5f51b02"
+      ],
+      "custom_css": [
+        ".responsive-image-wrapper {width: 100%;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": true,
+        "section-width": "full",
+        "content-position": "overlay"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "full-width"
+      }
+    },
+    "a2445223-1017-4327-b278-59ee227e34aa": {
+      "type": "text--rich-text",
+      "custom_css": [
+        "h2 {color: #0097ab; font-size: 40px;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "Learn more about the magic of spirulina",
+        "text": "",
+        "button_label": "Learn more",
+        "button_link": "\/pages\/magic-of-spirulina?view=spirulina"
+      }
+    }
+  },
+  "order": [
+    "slideshow-00",
+    "rich-text-00",
+    "ec04d402-5532-47a8-96ae-7c12e56b1f25",
+    "9a23cda5-56e2-4611-a64b-82c4b518d859",
+    "1c18ac4c-4dab-4d96-8313-b2372500e611",
+    "d964b461-9926-438d-ba0e-51b5d6105334",
+    "17a9f1cb-667a-403e-9d23-4f1fa7787d8e",
+    "2c3684c1-7e96-423d-ad2c-90e68f5ef392",
+    "main",
+    "a2445223-1017-4327-b278-59ee227e34aa"
+  ]
+}

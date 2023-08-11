@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--article",
+      "custom_css": [
+        ".h4 {font-family: \"Gotham Narrow\"; text-transform: capitalize;}"
+      ],
+      "settings": {
+        "article-sidebar-description": "",
+        "blog-sidebar-link": "",
+        "show_blog_tags": false,
+        "show_recent_posts": true,
+        "blog_show_date": true
+      }
+    },
+    "56da94c1-1527-431a-8adb-139b9b93884b": {
+      "type": "collection--products-block",
+      "custom_css": [
+        "h2 {color: #0097ab; font-size: 50px;}",
+        ".product-grid--title {font-size: 30px;}",
+        "a {color: #0097ab;}",
+        ".product-grid--price {display: none;}",
+        "button {font-size: 20px;}"
+      ],
+      "settings": {
+        "title": "shop drinks",
+        "richtext": "",
+        "collection": "single-cans"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "56da94c1-1527-431a-8adb-139b9b93884b"
+  ]
+}

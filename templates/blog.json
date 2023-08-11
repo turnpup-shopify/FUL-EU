@@ -1,0 +1,49 @@
+{
+  "sections": {
+    "image-with-text-overlay": {
+      "type": "image--image-with-text-overlay",
+      "custom_css": [
+        "h2 {font-size: 73px;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_Ful_Soop_Blog_Header.jpg",
+        "image_height": "30vw",
+        "bg_image_overlay_opacity": 0,
+        "parallax": false,
+        "title": "the FUL scoop",
+        "text": "",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 50,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#000000",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#4e4e4e"
+      }
+    },
+    "main": {
+      "type": "template--blog",
+      "custom_css": [
+        "a {font-size: 18px; color: #0097ab;}",
+        "img {width: 480px; height: 480px; object-fit: cover;}",
+        "h1 {display: none;}"
+      ],
+      "settings": {
+        "show_author_name": false,
+        "blog-sidebar-description": "",
+        "blog-sidebar-link": "",
+        "show_blog_tags": false,
+        "show_recent_posts": true,
+        "blog_show_date": true
+      }
+    }
+  },
+  "order": [
+    "image-with-text-overlay",
+    "main"
+  ]
+}

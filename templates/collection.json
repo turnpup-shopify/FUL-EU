@@ -1,0 +1,245 @@
+{
+  "wrapper": "div.collection-wrapper.wrapper",
+  "sections": {
+    "1cc07ddd-10b4-4d4c-8df5-61968d1e8f24": {
+      "type": "image--slideshow",
+      "blocks": {
+        "template--18277698797905__1cc07ddd-10b4-4d4c-8df5-61968d1e8f24-16784315843002e879-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ful_crew_cropped.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#333333",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#4e4e4e",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--18277698797905__1cc07ddd-10b4-4d4c-8df5-61968d1e8f24-16784315843002e879-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 30,
+        "caption-subheading-size": 16,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "collection-header": {
+      "type": "template--collection--header",
+      "blocks": {
+        "d3057c39-f862-4d4b-b045-c99c3bf6acf8": {
+          "type": "collection_image",
+          "disabled": true,
+          "settings": {
+            "collection-image-size": "20vh"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "19eeeda1-0ae2-47d0-ab8d-2c7a043f0c67": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d3057c39-f862-4d4b-b045-c99c3bf6acf8",
+        "title",
+        "19eeeda1-0ae2-47d0-ab8d-2c7a043f0c67"
+      ],
+      "custom_css": [
+        "header {padding-top: 20px;}",
+        "h1 {font-family: \"Gotham Narrow\"; text-transform: uppercase; color: #0097ab; font-size: 30px;}"
+      ],
+      "settings": {
+      }
+    },
+    "product-grid": {
+      "type": "template--collection",
+      "blocks": {
+        "product_card_image": {
+          "type": "product_card_image",
+          "settings": {
+            "enable_badges": true
+          }
+        },
+        "product_card_title": {
+          "type": "product_card_title",
+          "settings": {
+          }
+        },
+        "product_card_price": {
+          "type": "product_card_price",
+          "settings": {
+          }
+        },
+        "product_card_button": {
+          "type": "product_card_button",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "product_card_image",
+        "product_card_title",
+        "product_card_price",
+        "product_card_button"
+      ],
+      "custom_css": [
+        "a {color: #0097ab; font-size: 20px;}"
+      ],
+      "settings": {
+        "desktop-products-per-row": 4,
+        "tablet-products-per-row": 2,
+        "mobile-products-per-row": 1,
+        "products-per-page": 4,
+        "pagination_options": "pagination_default",
+        "desktop_position": "sidebar",
+        "enable_collection_title": false,
+        "enable_collection_description": true,
+        "enable_filtering": false,
+        "enable_sorting": false
+      }
+    },
+    "6b6d3144-13fe-42c4-b881-2e91a0115dca": {
+      "type": "image--slideshow",
+      "blocks": {
+        "template--18277698797905__6b6d3144-13fe-42c4-b881-2e91a0115dca-1678413743fde0c1a9-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_449.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#333333",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#4e4e4e",
+            "captionHorizontal": "center",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--18277698797905__6b6d3144-13fe-42c4-b881-2e91a0115dca-1678413743fde0c1a9-0"
+      ],
+      "custom_css": [
+        "h2 {text-transform: initial; text-align: center;}",
+        ".homepage-featured-content-box {position: absolute; max-width: 100%; width: 100%;}",
+        ".featured-row__subtext.textarea {width: 40%; padding-left: 20px;}",
+        ".align-center {max-height: 100%;}"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "caption-subheading-size": 20,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": false,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "d67ca116-4f77-4b3b-810e-c6c6fcee5d7b": {
+      "type": "image--image-with-text",
+      "custom_css": [
+        "h2 {color: #0097ab; font-size: 30px; text-transform: initial;}",
+        "p {font-size: 20px;}",
+        ".homepage-featured-content-box-inner {padding-left: 10%; padding-right: 5%;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "image": "shopify:\/\/shop_images\/7_Spirulina.jpg",
+        "text_overlapping_image": false,
+        "section-width": "full",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "In the smallest of things, lies the greatest of potentials",
+        "text": "<p>Miniscule yet mighty, spirulina holds this incredible power. The oldest lifeform on our planet, it is the lifesource of our future. And though it’s been overlooked as our world’s original superfood, for us it is the superhero of our lives. Unlocking endless possibilities - to protect, sustain and nourish us. And that is what we are here to do. For we know that when we give power to small things, we can achieve big feats.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "4a938e98-486d-44e1-8668-1dc8c61b35ea": {
+      "type": "image--slideshow-banner",
+      "blocks": {
+        "91ecf0fa-23cd-42c5-b9f6-c15cd35686c7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_2_Cans.jpg",
+            "title": "boosting.",
+            "title_2": "energizing.",
+            "title_3": "replenishing.",
+            "subtitle": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "caption-heading-color": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#333333",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#4e4e4e",
+            "captionHorizontal": "right",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "91ecf0fa-23cd-42c5-b9f6-c15cd35686c7"
+      ],
+      "custom_css": [
+        "h2 {padding-left: 20%;}"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": false,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "caption-subtitle-size": 30,
+        "caption-subheading-size": 16,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "1cc07ddd-10b4-4d4c-8df5-61968d1e8f24",
+    "collection-header",
+    "product-grid",
+    "6b6d3144-13fe-42c4-b881-2e91a0115dca",
+    "d67ca116-4f77-4b3b-810e-c6c6fcee5d7b",
+    "4a938e98-486d-44e1-8668-1dc8c61b35ea"
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "sections": {
+    "slideshow-00": {
+      "type": "image--slideshow",
+      "blocks": {
+        "164813303069db6705-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_Magic_Of_Spirulina_Header.jpg",
+            "title": "magic of spirulina",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#4e4e4e",
+            "captionHorizontal": "center",
+            "captionAlignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "164813303069db6705-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": false,
+        "text-below-image": false,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "caption-subheading-size": 16,
+        "caption-button-size": 16,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "full-width"
+      }
+    },
+    "e2fc43c1-d62b-448d-88ed-a6c59abdd15c": {
+      "type": "image--slideshow",
+      "blocks": {
+        "template--18297363464529__e2fc43c1-d62b-448d-88ed-a6c59abdd15c-1678856118a91bf4ac-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ful_Website_SpirulinaGlass.png",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#333333",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#4e4e4e",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--18297363464529__e2fc43c1-d62b-448d-88ed-a6c59abdd15c-1678856118a91bf4ac-1"
+      ],
+      "custom_css": [
+        ".align-center {max-height: 100%;}"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 30,
+        "caption-subheading-size": 16,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "00460909-95e8-45c5-be3e-87387fc5d334": {
+      "type": "text--rich-text",
+      "disabled": true,
+      "custom_css": [
+        ".textarea {font-size: 40px; color: #0097ab; font-family: \"Antique Olive\";}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "text": "<p>nutrients in FUL® have been linked to the following benefits<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "eff3daed-03ca-4d80-82ca-dc70b8b72951": {
+      "type": "advanced-layout--custom-html",
+      "blocks": {
+        "template--18297363464529__eff3daed-03ca-4d80-82ca-dc70b8b72951-167962729048c414c5-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 30px 0;\"><div class=\"wrapper-padded\">\n<h2 class=\"homepage-sections--title\">nutrients in <svg width=\"100\" height=\"60\" viewbox=\"0 0 144 80\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M81.3215 76.3039H74.1709C73.6745 76.3039 73.2754 75.8958 73.2855 75.3994C73.3065 74.2884 73.3466 73.2104 73.2524 72.1475C73.1962 71.5017 73.125 70.858 73.0458 70.2152C72.8102 68.312 70.7425 67.4165 69.3527 68.6148C68.8563 69.043 68.367 69.4792 67.8897 69.9304C66.3334 71.4035 65.0228 73.2104 63.3713 74.531C54.4358 81.6756 43.7616 77.3548 42.1652 65.5243C41.2416 58.6856 41.6778 51.6272 41.5605 44.6672C41.5014 41.1154 41.5405 33.6149 41.5475 29.1767C41.5485 28.5259 42.0769 28.0005 42.7267 28.0005H49.7871C50.4378 28.0005 50.9663 28.5289 50.9663 29.1807C50.9663 30.3239 50.9653 31.4299 50.9663 32.5359C50.9733 39.7437 50.8189 51.6904 51.0365 58.8912C51.233 65.383 54.2062 68.0242 60.1595 67.587C67.3111 67.0626 72.1524 61.9556 72.5565 53.7641C72.8743 47.2994 72.6517 36.5579 72.6277 29.3111C72.6247 28.6573 73.1541 28.1308 73.8069 28.1308H81.0277C81.6795 28.1308 82.2069 28.6593 82.2069 29.3101V75.4185C82.2069 75.9068 81.8108 76.3039 81.3215 76.3039Z\" fill=\"#009AAE\"><\/path>\n<path d=\"M37.6789 30.5126C37.5977 29.6482 36.6882 28.2444 36.0785 28.1862C35.4969 28.13 15.9323 27.9947 15.2735 28.0007C14.7079 28.0057 14.1524 28.0438 13.637 28.0859C12.7055 28.1611 11.797 28.3577 10.9336 28.6705C9.22291 29.2922 7.79399 30.1075 6.56262 31.1644C5.84766 31.779 5.15476 32.3907 4.55311 33.1157C3.44206 34.4564 2.62382 35.78 2.05125 37.1618C1.56492 38.334 1.03547 39.7379 0.794808 41.26C0.769739 41.4205 0.738654 41.5809 0.708572 41.7423C0.62033 42.2156 0.520055 42.7521 0.520055 43.3337L0.5 75.1319C0.5 75.7837 1.0485 76.3111 1.72536 76.3111C1.78953 76.3201 1.85672 76.3322 1.9239 76.3322L8.72454 76.3111C9.4004 76.3111 9.9499 75.7837 9.9499 75.1319L9.93586 59.866C9.93285 57.8756 11.5383 56.2591 13.5287 56.2501C18.8493 56.226 28.229 56.1829 28.5469 56.1889C28.959 56.195 29.2959 55.8219 29.3009 55.3577C29.324 53.1436 29.4173 51.2574 29.2197 49.4033C29.1385 48.6423 28.58 47.3547 27.6183 47.3547C27.0969 47.3547 20.3354 47.3196 20.3354 47.3196C17.5467 47.3026 15.1652 48.3956 13.6691 49.4956C12.3816 50.4422 10.2317 49.9779 10.0722 48.8027C10.0682 48.7726 10.0973 46.3089 10.1204 43.3989C10.1204 43.3989 10.1795 42.8233 10.2567 42.5556C10.5014 41.7103 10.9557 40.9161 11.6455 40.1279C11.8581 39.8822 12.1549 39.6556 12.4688 39.415L12.6884 39.2455C13.4876 38.6228 14.4282 38.2929 15.4831 38.2658C15.7789 38.2578 35.159 38.2297 36.7443 38.2267C37.3019 38.2257 37.7551 37.7454 37.7611 37.1488C37.7862 34.689 37.8734 32.5832 37.6789 30.5126Z\" fill=\"#009AAE\"><\/path>\n<path d=\"M126.8 68.1045C126.796 67.6653 126.436 67.3123 125.997 67.3193C124.768 67.3414 123.716 67.3153 122.53 67.2933C117.844 67.204 113.056 66.9854 108.571 65.7541C101.721 63.8759 99.0479 58.089 99.0008 50.4842H99.0509V29.1858C99.0509 28.535 98.5225 28.0066 97.8717 28.0066H90.7632C90.1114 28.0066 89.583 28.532 89.584 29.1848C89.592 32.2793 89.6361 36.0115 89.6361 49.8725C89.6361 62.0008 94.5656 76.304 112.452 76.304C114.091 76.304 124.021 76.7702 125.186 76.666C125.826 76.6088 126.631 75.7384 126.716 74.8891C126.927 72.7813 126.822 70.6354 126.8 68.1045Z\" fill=\"#009AAE\"><\/path>\n<path d=\"M128.718 41.5909V33.2045H132.968C133.309 33.2045 133.68 33.303 134.082 33.5C134.483 33.6894 134.824 33.9848 135.105 34.3864C135.393 34.7803 135.536 35.2803 135.536 35.8864C135.536 36.5 135.389 37.0227 135.093 37.4545C134.798 37.8788 134.438 38.2008 134.014 38.4205C133.597 38.6402 133.203 38.75 132.832 38.75H129.764V37.3864H132.264C132.514 37.3864 132.783 37.2614 133.071 37.0114C133.366 36.7614 133.514 36.3864 133.514 35.8864C133.514 35.3712 133.366 35.0227 133.071 34.8409C132.783 34.6591 132.529 34.5682 132.309 34.5682H130.559V41.5909H128.718ZM133.786 37.6364L135.877 41.5909H133.855L131.809 37.6364H133.786ZM131.9 46.5909C130.643 46.5909 129.465 46.3561 128.366 45.8864C127.268 45.4167 126.302 44.7652 125.468 43.9318C124.635 43.0985 123.983 42.1326 123.514 41.0341C123.044 39.9356 122.809 38.7576 122.809 37.5C122.809 36.2424 123.044 35.0644 123.514 33.9659C123.983 32.8674 124.635 31.9015 125.468 31.0682C126.302 30.2348 127.268 29.5833 128.366 29.1136C129.465 28.6439 130.643 28.4091 131.9 28.4091C133.158 28.4091 134.336 28.6439 135.434 29.1136C136.533 29.5833 137.499 30.2348 138.332 31.0682C139.165 31.9015 139.817 32.8674 140.286 33.9659C140.756 35.0644 140.991 36.2424 140.991 37.5C140.991 38.7576 140.756 39.9356 140.286 41.0341C139.817 42.1326 139.165 43.0985 138.332 43.9318C137.499 44.7652 136.533 45.4167 135.434 45.8864C134.336 46.3561 133.158 46.5909 131.9 46.5909ZM131.9 44.4091C133.173 44.4091 134.332 44.0985 135.377 43.4773C136.423 42.8561 137.256 42.0227 137.877 40.9773C138.499 39.9318 138.809 38.7727 138.809 37.5C138.809 36.2273 138.499 35.0682 137.877 34.0227C137.256 32.9773 136.423 32.1439 135.377 31.5227C134.332 30.9015 133.173 30.5909 131.9 30.5909C130.627 30.5909 129.468 30.9015 128.423 31.5227C127.377 32.1439 126.544 32.9773 125.923 34.0227C125.302 35.0682 124.991 36.2273 124.991 37.5C124.991 38.7727 125.302 39.9318 125.923 40.9773C126.544 42.0227 127.377 42.8561 128.423 43.4773C129.468 44.0985 130.627 44.4091 131.9 44.4091Z\" fill=\"#0097AB\"><\/path>\n<\/svg> have been linked to the following benefits<\/h2>\n<\/div><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--18297363464529__eff3daed-03ca-4d80-82ca-dc70b8b72951-167962729048c414c5-0"
+      ],
+      "custom_css": [
+        "h2 {font-size: 40px; color: #0097ab; font-family: \"Antique Olive\";}",
+        "svg {margin: 0 0 -4px 0;}",
+        ".wrapper-padded {max-width: 800px; margin: 0 auto;}"
+      ],
+      "settings": {
+      }
+    },
+    "9cefd1ff-733e-4fad-9b16-6c68108cb555": {
+      "type": "template--product--info-columns-customize",
+      "blocks": {
+        "template--18297363464529__9cefd1ff-733e-4fad-9b16-6c68108cb555-1678860650c113fe38-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_Detox.png",
+            "title": "detox",
+            "text": "<h4>SPIRULINA<\/h4><p>Spirulina, due to its high antioxidant content (mainly a blue protein called phycocyanin), has been reported to help body detoxifying processes and support liver and kidney functions.<\/p><p><strong>Learn More Here:<\/strong> <a href=\"https:\/\/doi.org\/10.3109\/13880209.2015.1077464\" target=\"_blank\" title=\"https:\/\/doi.org\/10.3109\/13880209.2015.1077464\">Source 1  <\/a> <a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC5687155\/#B73\" target=\"_blank\" title=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC5687155\/#B73\">Source 2<\/a><\/p>",
+            "link": "",
+            "link_text": "Optional link"
+          }
+        }
+      },
+      "block_order": [
+        "template--18297363464529__9cefd1ff-733e-4fad-9b16-6c68108cb555-1678860650c113fe38-0"
+      ],
+      "custom_css": [
+        "img {max-width: 180px !important;}",
+        ".info-cols--item-50,.info-cols--item-33 {text-align: center;}",
+        "a {color: inherit; text-decoration: underline; margin-right: 8px;}",
+        "h3 {color: #0097ab; font-size: 30px;}",
+        "h4 {color: #0097ab; font-size: 18px;}",
+        "p {font-size: 18px;}"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "8af66553-0257-4525-afb0-4d819f3b3ddc": {
+      "type": "template--product--info-columns-customize",
+      "blocks": {
+        "ca5ab5fb-1459-4aac-b7cd-62179e482354": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_Anti-inflammatory.png",
+            "title": "anti-inflammatory",
+            "text": "<h4>PHYCOCYANIN<\/h4><p>Phycocyanin is a potential natural anti-inflammatory agent.<\/p><p><strong>Learn More Here:<\/strong> <a href=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC5687155\/#B73\" target=\"_blank\" title=\"https:\/\/www.ncbi.nlm.nih.gov\/pmc\/articles\/PMC5687155\/#B73\">Source<\/a><\/p>",
+            "link": "",
+            "link_text": "Optional link"
+          }
+        },
+        "b1454593-b332-47fe-bd81-df1c77247eeb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_Antioxidant.png",
+            "title": "antioxidant",
+            "text": "<h4>PHYCOCYANIN<\/h4><p>Phycocyanin can reduce oxidative stress.<\/p><p><strong>Learn More Here:<\/strong> <a href=\"https:\/\/doi.org\/10.1016\/j.biopha.2020.110553\" target=\"_blank\" title=\"https:\/\/doi.org\/10.1016\/j.biopha.2020.110553\">Source<\/a><\/p>",
+            "link": "",
+            "link_text": "Optional link"
+          }
+        },
+        "b72d5fac-b43a-41d3-b34a-a4e70dbf0a2b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_Energy.png",
+            "title": "energy",
+            "text": "<h4>VITAMIN B2<\/h4><p>Contributes to the reduction of tiredness and fatigue.<\/p><p><\/p><h4>CALCIUM<\/h4><p>Contributes to energy-yielding metabolism and normal function of digestive enzymes.<\/p>",
+            "link": "",
+            "link_text": "Optional link"
+          }
+        }
+      },
+      "block_order": [
+        "ca5ab5fb-1459-4aac-b7cd-62179e482354",
+        "b1454593-b332-47fe-bd81-df1c77247eeb",
+        "b72d5fac-b43a-41d3-b34a-a4e70dbf0a2b"
+      ],
+      "custom_css": [
+        "img {max-width: 180px !important;}",
+        ".info-cols--item-50,.info-cols--item-33 {text-align: center;}",
+        "a {color: inherit; text-decoration: underline;}",
+        "h3,h4 {color: #0097ab;}",
+        "p {font-size: 18px;}"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    },
+    "0a5539f7-b2a4-401f-a751-70c7436a808a": {
+      "type": "template--product--info-columns-customize",
+      "blocks": {
+        "f0673649-0334-4c66-bfb6-b1276312fd57": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_Strength.png",
+            "title": "strength",
+            "text": "<h4>VEGAN PROTEIN<\/h4><p>Most plant-based protein isn’t ‘complete’. FUL superfood is on par with animal protein. This also includes key amino acids for arginine and glutamine to help to develop and maintain two types of strength: power and speed.<\/p><p><\/p><h4>CALCIUM<\/h4><p>Needed for the maintenance of normal bones.<\/p>",
+            "link": "",
+            "link_text": "Optional link"
+          }
+        },
+        "4bbd4623-45d9-41f8-8643-0cf1e42c34ea": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_Hydration.png",
+            "title": "hydration",
+            "text": "<h4>POTASSIUM<\/h4><p>Known to support healthy blood pressure levels and a popular electrolyte for post-workout hydration.<\/p>",
+            "link": "",
+            "link_text": "Optional link"
+          }
+        },
+        "6f6519e4-eede-4869-bfe0-6cd61f2e897b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7_Immunity.png",
+            "title": "immunity",
+            "text": "<h4>VITAMIN C<\/h4><p>Helping with the normal functioning of the immune system and iron absorption.<\/p><p><\/p><h4>IRON<\/h4><p>Contributes to the normal function of the immune system.<\/p>",
+            "link": "",
+            "link_text": "Optional link"
+          }
+        }
+      },
+      "block_order": [
+        "f0673649-0334-4c66-bfb6-b1276312fd57",
+        "4bbd4623-45d9-41f8-8643-0cf1e42c34ea",
+        "6f6519e4-eede-4869-bfe0-6cd61f2e897b"
+      ],
+      "custom_css": [
+        "img {max-width: 180px !important;}",
+        ".info-cols--item-50,.info-cols--item-33 {text-align: center;}",
+        ".info-cols--text {padding: 0 40px;}",
+        "a {color: inherit; text-decoration: underline;}",
+        "h3,h4 {color: #0097ab;}",
+        "p {font-size: 18px;}"
+      ],
+      "settings": {
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "slideshow-00",
+    "main",
+    "e2fc43c1-d62b-448d-88ed-a6c59abdd15c",
+    "00460909-95e8-45c5-be3e-87387fc5d334",
+    "eff3daed-03ca-4d80-82ca-dc70b8b72951",
+    "9cefd1ff-733e-4fad-9b16-6c68108cb555",
+    "8af66553-0257-4525-afb0-4d819f3b3ddc",
+    "0a5539f7-b2a4-401f-a751-70c7436a808a"
+  ]
+}

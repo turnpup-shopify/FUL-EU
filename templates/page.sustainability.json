@@ -1,0 +1,236 @@
+{
+  "sections": {
+    "slideshow-00": {
+      "type": "image--slideshow",
+      "blocks": {
+        "164813303069db6705-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_Sustainability_Header.jpg",
+            "title": "at the forefront of sustainable nutrition",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#000000",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#4e4e4e",
+            "captionHorizontal": "center",
+            "captionAlignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "164813303069db6705-0"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": false,
+        "text-below-image": false,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "caption-subheading-size": 16,
+        "caption-button-size": 16,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "rich-text-00": {
+      "type": "text--rich-text",
+      "custom_css": [
+        "h2 {font-size: 40px; color: #0097ab;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "Spirulina has been identified by the UN as one of the best nutrient-dense nutrition solutions for our sustainable future",
+        "text": "",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "a3c52221-d63a-4b37-a0e5-22c86766bbbd": {
+      "type": "image--slideshow-banner-image",
+      "blocks": {
+        "template--18290900369745__a3c52221-d63a-4b37-a0e5-22c86766bbbd-1678846912400d6ccb-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0_Row_Background.jpg",
+            "title": "breathing life into our planet",
+            "image_banner": "shopify:\/\/shop_images\/2_Breathing_Life_Into_Planet.png",
+            "text": "For billions of years, Spirulina has been gobbling up CO<sub>2<\/sub> and converting it into essential oxygen and nitrogen - sustaining life on earth. It’s more efficient at creating oxygen than trees and algae is responsible for producing over half the oxygen we breathe.",
+            "image_icon_1": "shopify:\/\/shop_images\/CO2.png",
+            "text_icon_1": "<p>CO<sub>2<\/sub> is main feedstock.<\/p><p>Production process coverts CO<sub>2<\/sub> into nutrients and oxygen 200x more efficiently than trees.<\/p>",
+            "text_icon_2": "<p>It looks like you're not old enough to shop with us, come back when you're 21 or older.<\/p>",
+            "text_icon_3": "<p>It looks like you're not old enough to shop with us, come back when you're 21 or older.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "caption-heading-color": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#333333",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#4e4e4e",
+            "captionHorizontal": "right",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--18290900369745__a3c52221-d63a-4b37-a0e5-22c86766bbbd-1678846912400d6ccb-0"
+      ],
+      "custom_css": [
+        ".homepage-featured-content-box-inner {width: 75%;}"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-screen",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "caption-subheading-size": 18,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "848191b0-def0-4037-b51b-850ac521cffc": {
+      "type": "image--slideshow-banner-image",
+      "blocks": {
+        "99e26aa9-fd97-4e7a-a006-037768cbf9e4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0_Row_Background.jpg",
+            "title": "refreshing our world",
+            "image_banner": "shopify:\/\/shop_images\/3_Refreshing_Our_World.png",
+            "text": "FUL® converts CO<sub>2<\/sub> into oxygen and nutrients. Rather than nutrient production serving as a source of CO<sub>2<\/sub> emissions, CO<sub>2<\/sub> becomes a main source for our nutrient production!",
+            "image_icon_1": "shopify:\/\/shop_images\/Bioavailable.png",
+            "text_icon_1": "<p>60% bioavailable complete protein<\/p>",
+            "image_icon_2": "shopify:\/\/shop_images\/Micronutrient.png",
+            "text_icon_2": "<p>Micronutrient dense<\/p>",
+            "image_icon_3": "shopify:\/\/shop_images\/Bioactive-Rich.png",
+            "text_icon_3": "<p>Bioactive-rich (Antioxidants, anti-inflammatories)<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "caption-heading-color": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#333333",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#4e4e4e",
+            "captionHorizontal": "right",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "99e26aa9-fd97-4e7a-a006-037768cbf9e4"
+      ],
+      "custom_css": [
+        ".homepage-featured-content-box-inner {width: 75%;}"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-screen",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "caption-subheading-size": 18,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "7a2a5a65-5919-45a8-8e62-13629ac7d62f": {
+      "type": "image--slideshow-banner-image",
+      "blocks": {
+        "e5a276d3-081b-42f6-a07e-c770bbc1aa1c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/0_Row_Background.jpg",
+            "title": "resource efficient",
+            "image_banner": "shopify:\/\/shop_images\/4_Resource_Efficient.png",
+            "text": "FUL also doesn’t require arable land (leaving land available for other purposes such as restoring natural ecosystems), fertilizers, pesticides, and little fresh water.  Spirulina avoids a lot of the damage that current sources of popular nutrition cause our earth: deforestation, biodiversity loss, desertification and fresh water usage &amp; pollution.",
+            "image_icon_1": "shopify:\/\/shop_images\/No_Arable_Land.png",
+            "text_icon_1": "<p>No arable land, fertilizers, or pesticides<\/p>",
+            "image_icon_2": "shopify:\/\/shop_images\/Limited_Fresh_Water.png",
+            "text_icon_2": "<p>Limited fresh water<\/p>",
+            "text_icon_3": "<p>Bioactive-rich (Antioxidants, anti-inflammatories)<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "caption-heading-color": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "#333333",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#4e4e4e",
+            "captionHorizontal": "right",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "e5a276d3-081b-42f6-a07e-c770bbc1aa1c"
+      ],
+      "custom_css": [
+        ".homepage-featured-content-box-inner {width: 75%;}"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-screen",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "caption-subheading-size": 18,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "image-with-text-01": {
+      "type": "image--image-with-text",
+      "disabled": true,
+      "settings": {
+        "colors": "white",
+        "image": "shopify:\/\/shop_images\/2_Breathing_Life_Into_Planet.png",
+        "text_overlapping_image": false,
+        "section-width": "content",
+        "layout": "left",
+        "text_alignment": "left",
+        "title": "breathing life into our planet",
+        "text": "<p>For billions of years, Spirulina has been gobbling up CO2 and converting it into essential oxygen and nitrogen - sustaining life on earth. It’s more efficient at creating oxygen than trees and algae is responsible for producing over half the oxygen we breathe.<\/p>",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "main": {
+      "type": "template--page",
+      "disabled": true,
+      "settings": {
+        "page_title_enabled": true,
+        "page_width": "full-width"
+      }
+    }
+  },
+  "order": [
+    "slideshow-00",
+    "rich-text-00",
+    "a3c52221-d63a-4b37-a0e5-22c86766bbbd",
+    "848191b0-def0-4037-b51b-850ac521cffc",
+    "7a2a5a65-5919-45a8-8e62-13629ac7d62f",
+    "image-with-text-01",
+    "main"
+  ]
+}

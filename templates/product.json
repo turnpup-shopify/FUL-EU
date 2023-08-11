@@ -1,0 +1,223 @@
+{
+  "sections": {
+    "product-form": {
+      "type": "template--product",
+      "blocks": {
+        "media": {
+          "type": "media",
+          "settings": {
+            "image_size": "medium",
+            "image-display": "thumbnails",
+            "thumbnail_position": "below",
+            "enable_image_zoom": true,
+            "enable_video_loop": false
+          }
+        },
+        "sale_badge": {
+          "type": "sale_badge",
+          "settings": {
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "10582445-e7b5-448c-a786-3b39249764bb": {
+          "type": "product-rating",
+          "settings": {
+            "rating-label": "Rating",
+            "rating": "",
+            "rating-max": 5
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "shipping_policy": true,
+            "tax_included": false
+          }
+        },
+        "options": {
+          "type": "options",
+          "settings": {
+            "product_variant_style": "swatches",
+            "thumbnail_changes_variant": false,
+            "hide_soldout_variants": false
+          }
+        },
+        "quantity": {
+          "type": "quantity",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_smart_checkout": true
+          }
+        },
+        "695a82d4-5c88-41e0-9797-aa7b8bd31339": {
+          "type": "local_pickup",
+          "settings": {
+          }
+        },
+        "18c58aeb-aaed-495f-bc50-bc327805b505": {
+          "type": "text-with-icon",
+          "disabled": true,
+          "settings": {
+            "icon": "takeaway",
+            "text": "Free shipping",
+            "link": ""
+          }
+        },
+        "fbfe241f-1b44-41cd-ae22-e866bdad9aaf": {
+          "type": "cross-sells",
+          "settings": {
+            "title": "Try our other flavors:",
+            "cross_sell_product_1": "lemon-ginger",
+            "cross_sell_product_2": "lime-mint",
+            "cross_sell_product_3": "white-peach",
+            "cross_sell_bg": "#f8f8f8"
+          }
+        },
+        "4fc5c8ff-de40-4a1e-9237-abd82cb40a7a": {
+          "type": "trust_badges",
+          "settings": {
+            "trust-badge_max_width": 220
+          }
+        },
+        "71008500-6b46-4cf2-8161-d0a1e811aaa4": {
+          "type": "complementary-products",
+          "disabled": true,
+          "settings": {
+            "title": "Try our other flavors:",
+            "products_to_show": 2,
+            "products_per_page": 1,
+            "complementary_block_bg": "#f8f8f8"
+          }
+        }
+      },
+      "block_order": [
+        "media",
+        "sale_badge",
+        "title",
+        "10582445-e7b5-448c-a786-3b39249764bb",
+        "price",
+        "options",
+        "quantity",
+        "buy_buttons",
+        "695a82d4-5c88-41e0-9797-aa7b8bd31339",
+        "18c58aeb-aaed-495f-bc50-bc327805b505",
+        "fbfe241f-1b44-41cd-ae22-e866bdad9aaf",
+        "4fc5c8ff-de40-4a1e-9237-abd82cb40a7a",
+        "71008500-6b46-4cf2-8161-d0a1e811aaa4"
+      ],
+      "settings": {
+        "enable_sticky": true,
+        "show_out_of_stock_email": true
+      }
+    },
+    "product-description": {
+      "type": "template--product--description",
+      "disabled": true,
+      "custom_css": [
+        ".product-description {font-size: 18px;}"
+      ],
+      "settings": {
+        "enable_readmore": false
+      }
+    },
+    "product-recommendations": {
+      "type": "template--product--recommendations",
+      "disabled": true,
+      "blocks": {
+        "product_card_image": {
+          "type": "product_card_image",
+          "settings": {
+            "enable_badges": true
+          }
+        },
+        "product_card_title": {
+          "type": "product_card_title",
+          "settings": {
+          }
+        },
+        "product_card_vendor": {
+          "type": "product_card_vendor",
+          "settings": {
+          }
+        },
+        "product_card_price": {
+          "type": "product_card_price",
+          "settings": {
+          }
+        },
+        "product_card_button": {
+          "type": "product_card_button",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "product_card_image",
+        "product_card_title",
+        "product_card_vendor",
+        "product_card_price",
+        "product_card_button"
+      ],
+      "settings": {
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "recently-viewed": {
+      "type": "template--product--recently-viewed",
+      "disabled": true,
+      "blocks": {
+        "5221e54b-692c-49a3-a986-7b665ecb44db": {
+          "type": "product_card_image",
+          "settings": {
+            "enable_badges": true
+          }
+        },
+        "b56cf57c-e6f4-4f75-9bc4-373aa4578409": {
+          "type": "product_card_title",
+          "settings": {
+          }
+        },
+        "8f1a1532-6551-48f8-9264-9ddd192fc675": {
+          "type": "product_card_price",
+          "settings": {
+          }
+        },
+        "244e5d20-251a-4f4f-a5a5-a8eac5320025": {
+          "type": "product_card_button",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "5221e54b-692c-49a3-a986-7b665ecb44db",
+        "b56cf57c-e6f4-4f75-9bc4-373aa4578409",
+        "8f1a1532-6551-48f8-9264-9ddd192fc675",
+        "244e5d20-251a-4f4f-a5a5-a8eac5320025"
+      ],
+      "settings": {
+        "recently_viewed_title": "Recently viewed products"
+      }
+    },
+    "16783295373040785e": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "product-form",
+    "product-description",
+    "product-recommendations",
+    "recently-viewed",
+    "16783295373040785e"
+  ]
+}

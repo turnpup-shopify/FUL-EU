@@ -1,0 +1,427 @@
+{
+  "sections": {
+    "26306bde-0342-4b9b-accb-b21adbf5ecef": {
+      "type": "image--slideshow-banner-with-customize-text",
+      "blocks": {
+        "template--18277698830673__26306bde-0342-4b9b-accb-b21adbf5ecef-16784181354230dba9-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/banner_191.webp",
+            "mobile_image": "shopify:\/\/shop_images\/Group_199.png",
+            "title": "sparkling",
+            "title_2": "spirulina water",
+            "title_3": "",
+            "subtitle": "<p>Non-GMO • Caffeine free<\/p><p>Vegan • Low sugar • Low calorie<\/p>",
+            "text": "Deliciously refreshing, naturally blue bubbles from FUL® Spirulina to detox your body and the planet. Subtly sweet, with notes of delicious white peach, lemon and ginger, and lime & mint.",
+            "customize_title_1": "",
+            "customize_subtitle_1": "",
+            "customize_top_1": 50,
+            "customize_right_1": 250,
+            "customize_title_2": "",
+            "customize_subtitle_2": "",
+            "customize_top_2": 250,
+            "customize_right_2": 150,
+            "customize_title_3": "",
+            "customize_subtitle_3": "",
+            "customize_top_3": 600,
+            "customize_right_3": 150,
+            "customize_title_4": "",
+            "customize_subtitle_4": "",
+            "customize_top_4": 550,
+            "customize_right_4": 800,
+            "customize-title-size": 22,
+            "customize-subtitle-size": 18,
+            "button_label": "Shop",
+            "button_link": "shopify:\/\/collections\/frontpage",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "caption-heading-color": "#ffffff",
+            "customize-text-color": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "rgba(0,0,0,0)",
+            "hover-button-text": "#00525f",
+            "hover-button-background": "#ffffff",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--18277698830673__26306bde-0342-4b9b-accb-b21adbf5ecef-16784181354230dba9-0"
+      ],
+      "custom_css": [
+        ".align-center {max-height: 100%;}",
+        ".textarea {margin-top: 13px;}"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "caption-subtitle-size": 24,
+        "caption-subheading-size": 20,
+        "caption-button-size": 28,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "9a67d9e5-768c-4e87-9d6a-7f51e45f3549": {
+      "type": "image--slideshow-banner",
+      "blocks": {
+        "441525ae-54d5-478b-b7cb-1d4a745f3632": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ful_Product_Glass.webp",
+            "title": "boosting.",
+            "title_2": "energizing.",
+            "title_3": "replenishing.",
+            "subtitle": "",
+            "text": "Feel restored, rejuvenated and re-energized with our subtly sweet, naturally blue bubbles with notes of delicious white peach, lemon and ginger, and grapefruit and cucumber, promoting physical vitality with planet-based power. Positively powerFUL.",
+            "button_label": "",
+            "button_link": "",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#00525f",
+            "caption-heading-color": "#0097ab",
+            "button-text": "#ffffff",
+            "button-background": "#00525f",
+            "hover-button-text": "#ffffff",
+            "hover-button-background": "#4e4e4e",
+            "captionHorizontal": "right",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "441525ae-54d5-478b-b7cb-1d4a745f3632"
+      ],
+      "custom_css": [
+        ".rte {margin-top: 20px; padding-right: 5%;}"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "caption-subtitle-size": 30,
+        "caption-subheading-size": 20,
+        "caption-button-size": 14,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "c4a11e2e-3be4-4782-bb50-701e096035b2": {
+      "type": "image--slideshow-banner",
+      "blocks": {
+        "fe42e66c-9472-4a49-bd36-b445cc4229f4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Stocksy_txpe232e003SIg300_OriginalDelivery_4060278_2890x_67ddbef1-76b9-426d-82ba-fb769056c440.webp",
+            "title": "dive into",
+            "title_2": "detox",
+            "title_3": "",
+            "subtitle": "",
+            "text": "Dive into detox with spirulina’s rich nutrients.",
+            "button_label": "Shop",
+            "button_link": "shopify:\/\/collections\/frontpage",
+            "caption-background": "rgba(0,0,0,0)",
+            "caption-text": "#ffffff",
+            "caption-heading-color": "#ffffff",
+            "button-text": "#ffffff",
+            "button-background": "rgba(0,0,0,0)",
+            "hover-button-text": "#00525f",
+            "hover-button-background": "#ffffff",
+            "captionHorizontal": "left",
+            "captionAlignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "fe42e66c-9472-4a49-bd36-b445cc4229f4"
+      ],
+      "custom_css": [
+        ".homepage-section-btn {border: 2px solid; width: 150px; text-align: center;}",
+        ".rte {margin-top: 20px;}"
+      ],
+      "settings": {
+        "slider-animation": "slide",
+        "slider-width": "full-width",
+        "vertical-alignment": true,
+        "text-below-image": true,
+        "slider-slide-time": 5,
+        "caption-heading-size": 50,
+        "caption-subtitle-size": 30,
+        "caption-subheading-size": 20,
+        "caption-button-size": 20,
+        "show-slide-dots": false,
+        "show-slide-arrows": true,
+        "slider-navigation-color": "#ffffff"
+      }
+    },
+    "883b53b7-9796-49ef-863f-44f065df0ae2": {
+      "type": "image--gallery",
+      "blocks": {
+        "template--18079548997909__883b53b7-9796-49ef-863f-44f065df0ae2-167775352401d44fa0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LnGCloud_2_1_1680x_876feab5-5477-4bbc-a818-ac90597ac10a.webp",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "template--18079548997909__883b53b7-9796-49ef-863f-44f065df0ae2-167775352401d44fa0-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_181.png",
+            "link": "shopify:\/\/collections\/frontpage",
+            "title": "drink blue",
+            "subheading": "<p>Finally a spirulina powerhouse product that tastes delicious. Our beverage is naturally blue!<\/p><p>Tasting is believing.<\/p>",
+            "overlay-btn-text": "Shop",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "template--18079548997909__883b53b7-9796-49ef-863f-44f065df0ae2-167775352401d44fa0-0",
+        "template--18079548997909__883b53b7-9796-49ef-863f-44f065df0ae2-167775352401d44fa0-1"
+      ],
+      "custom_css": [
+        ".homepage-featured-box-btn {min-width: 166px;}",
+        "p {margin-bottom: 0;}",
+        ".responsive-image-wrapper {width: 100%;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": true,
+        "section-width": "full",
+        "content-position": "overlay"
+      }
+    },
+    "6611bdda-93ab-481d-a192-f7533c5f7bb0": {
+      "type": "image--gallery-customize-heading",
+      "blocks": {
+        "template--18277698830673__6611bdda-93ab-481d-a192-f7533c5f7bb0-16796227476fc61400-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_181.png",
+            "link": "shopify:\/\/pages\/magic-of-spirulina",
+            "title": "<h2 class=\"grid-item__title\">feel power<svg width=\"127\" height=\"51\" viewbox=\"0 0 127 51\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M80.8215 48.4133H73.6709C73.1745 48.4133 72.7754 48.0051 72.7855 47.5088C72.8065 46.3977 72.8466 45.3198 72.7524 44.2569C72.6962 43.6111 72.625 42.9673 72.5458 42.3246C72.3102 40.4214 70.2425 39.5259 68.8527 40.7242C68.3563 41.1524 67.867 41.5886 67.3897 42.0398C65.8334 43.5128 64.5228 45.3198 62.8713 46.6404C53.9358 53.785 43.2616 49.4641 41.6652 37.6337C40.7416 30.795 41.1778 23.7366 41.0605 16.7765C41.0014 13.2248 41.0405 5.72425 41.0475 1.28609C41.0485 0.635303 41.5769 0.109863 42.2267 0.109863H49.2871C49.9378 0.109863 50.4663 0.638312 50.4663 1.2901C50.4663 2.43323 50.4653 3.53926 50.4663 4.64529C50.4733 11.8531 50.3189 23.7998 50.5365 31.0005C50.733 37.4923 53.7062 40.1336 59.6595 39.6964C66.8111 39.1719 71.6524 34.0649 72.0565 25.8735C72.3743 19.4088 72.1517 8.66732 72.1277 1.42046C72.1247 0.766663 72.6541 0.240221 73.3069 0.240221H80.5277C81.1795 0.240221 81.7069 0.768669 81.7069 1.41945V47.5278C81.7069 48.0162 81.3108 48.4133 80.8215 48.4133Z\" fill=\"white\"><\/path>\n<path d=\"M37.1789 2.62194C37.0977 1.75757 36.1882 0.353725 35.5785 0.295566C34.9969 0.239412 15.4323 0.104041 14.7735 0.110057C14.2079 0.115071 13.6524 0.153176 13.137 0.195291C12.2055 0.270497 11.297 0.467036 10.4336 0.779893C8.72291 1.4016 7.29399 2.21683 6.06262 3.27373C5.34766 3.88841 4.65476 4.50009 4.05311 5.22508C2.94206 6.56575 2.12382 7.88938 1.55125 9.27117C1.06492 10.4434 0.535468 11.8472 0.294808 13.3694C0.269739 13.5298 0.238654 13.6903 0.208572 13.8517C0.12033 14.325 0.020055 14.8615 0.020055 15.4431L0 47.2412C0 47.893 0.548503 48.4205 1.22536 48.4205C1.28953 48.4295 1.35672 48.4415 1.4239 48.4415L8.22454 48.4205C8.9004 48.4205 9.4499 47.893 9.4499 47.2412L9.43586 31.9754C9.43285 29.9849 11.0383 28.3685 13.0287 28.3595C18.3493 28.3354 27.729 28.2923 28.0469 28.2983C28.459 28.3043 28.7959 27.9313 28.8009 27.467C28.824 25.253 28.9173 23.3668 28.7197 21.5127C28.6385 20.7516 28.08 19.4641 27.1183 19.4641C26.5969 19.4641 19.8354 19.429 19.8354 19.429C17.0467 19.412 14.6652 20.505 13.1691 21.605C11.8816 22.5516 9.73167 22.0873 9.57224 20.9121C9.56823 20.882 9.59731 18.4182 9.62037 15.5083C9.62037 15.5083 9.67953 14.9327 9.75674 14.665C10.0014 13.8196 10.4557 13.0255 11.1455 12.2373C11.3581 11.9916 11.6549 11.765 11.9688 11.5243L12.1884 11.3549C12.9876 10.7322 13.9282 10.4023 14.9831 10.3752C15.2789 10.3672 34.659 10.3391 36.2443 10.3361C36.8019 10.3351 37.2551 9.85477 37.2611 9.25813C37.2862 6.79839 37.3734 4.69262 37.1789 2.62194Z\" fill=\"white\"><\/path>\n<path d=\"M126.3 40.2136C126.296 39.7744 125.936 39.4215 125.497 39.4285C124.268 39.4505 123.216 39.4245 122.03 39.4024C117.344 39.3132 112.556 39.0946 108.071 37.8632C101.221 35.985 98.5479 30.1982 98.5008 22.5933H98.5509V1.29495C98.5509 0.644171 98.0225 0.115723 97.3717 0.115723H90.2632C89.6114 0.115723 89.083 0.641163 89.084 1.29395C89.092 4.38843 89.1361 8.12066 89.1361 21.9817C89.1361 34.1099 94.0656 48.4131 111.952 48.4131C113.591 48.4131 123.521 48.8794 124.686 48.7751C125.326 48.7179 126.131 47.8475 126.216 46.9982C126.427 44.8904 126.322 42.7446 126.3 40.2136Z\" fill=\"white\"><\/path>\n<\/svg>\n<\/h2>",
+            "subheading": "<p>Dive into detox with FULwater’s<br>incredible health benefits.<\/p>",
+            "overlay-btn-text": "Learn More",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "template--18277698830673__6611bdda-93ab-481d-a192-f7533c5f7bb0-16796227476fc61400-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5_Feel_Powerful_1680x_0b44e3a8-6261-4b6b-97c7-f51918fc61a4.webp",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "template--18277698830673__6611bdda-93ab-481d-a192-f7533c5f7bb0-16796227476fc61400-0",
+        "template--18277698830673__6611bdda-93ab-481d-a192-f7533c5f7bb0-16796227476fc61400-1"
+      ],
+      "custom_css": [
+        ".homepage-featured-box-btn {min-width: 166px;}",
+        ".responsive-image-wrapper {width: 100%;}",
+        ".homepage-gallery-grid-item:first-child {background: #6dc5c0;}",
+        ".homepage-gallery-grid-item:nth-child(2) {background: #0097ab;}",
+        "h2 {color: #fff;}",
+        "svg {height: 45px; margin: 0 0 -2px 0px;}",
+        "img {object-fit: initial !important;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": true,
+        "section-width": "full",
+        "content-position": "overlay"
+      }
+    },
+    "a2aa50c5-c464-45f9-b634-42534a9900ff": {
+      "type": "image--gallery",
+      "blocks": {
+        "3988030f-9187-4402-bb6b-640e41c18d95": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/6_Act_Green_1_1680x_7d942e3a-773c-47b0-905d-d07370a2777d.webp",
+            "link": "",
+            "title": "",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        },
+        "32c19085-d2ea-4103-8671-b0c57f3bbbe0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_181.png",
+            "link": "shopify:\/\/pages\/sustainability",
+            "title": "act green",
+            "subheading": "<p>We don’t just want to “do less harm” – FUL aims to proactively benefit the planet.<\/p>",
+            "overlay-btn-text": "Learn more",
+            "show-gradient-overlay": false,
+            "overlay_font_color": "#ffffff",
+            "overlay_color": "#323232"
+          }
+        }
+      },
+      "block_order": [
+        "3988030f-9187-4402-bb6b-640e41c18d95",
+        "32c19085-d2ea-4103-8671-b0c57f3bbbe0"
+      ],
+      "custom_css": [
+        ".homepage-featured-box-btn {min-width: 166px;}",
+        ".responsive-image-wrapper {width: 100%;}",
+        "img {object-fit: contain !important;}"
+      ],
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "remove-spacing": true,
+        "full-width": true,
+        "section-width": "full",
+        "content-position": "overlay"
+      }
+    },
+    "fd160619-8d21-4764-93eb-47e69e5a74f6": {
+      "type": "rev_cocktails-1",
+      "settings": {
+      }
+    },
+    "6d78f524-2bd6-4772-8bb6-5ec7d5d605b4": {
+      "type": "video--video-hero",
+      "disabled": true,
+      "settings": {
+        "url": "https:\/\/www.youtube.com\/watch?v=8urs-80yXNI&ab_channel=FUL",
+        "desktopHeight": "650",
+        "mobileHeight": "fit",
+        "title": "",
+        "subheading": "",
+        "textAlignment": "center",
+        "textColor": "#000000",
+        "textShadow": false,
+        "heading--text-size": 50,
+        "subheading--text-size": 24,
+        "link": "https:\/\/www.youtube.com\/watch?v=8urs-80yXNI&ab_channel=FUL",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#333333",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#4e4e4e"
+      }
+    },
+    "eb19a697-6b3e-4ed7-8541-be2d60e8fa3e": {
+      "type": "instafeed",
+      "custom_css": [
+        "h2,div,a {background: #14acb5; color: #ffffff; margin: 0;}",
+        "h2 {padding: 50px 0 30px;}",
+        ".tiktok-wrapper {margin-right: 15px;}",
+        "div {padding-bottom: 50px;}"
+      ],
+      "settings": {
+        "heading_size": 20,
+        "feed_width": 100,
+        "html_area": "<h2 style=\"text-align:center\" class=\"instagram\">\n  <a style=\" top: 2px;position: relative;\" href=\"https:\/\/www.instagram.com\/ful_company\/\" target=\"_blank\"><i class=\"fa fa-instagram fa-1x\"><\/i><\/a>|\n<a href=\"https:\/\/www.tiktok.com\/@drink_ful\" target=\"_blank\" class=\"tiktok-wrapper\">\n      <svg style=\" height: 27px; fill: #ffffff; top: 5px;position: relative;\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 2859 3333\" class=\"tiktok-icon\"><path d=\"M2081 0c55 473 319 755 778 785v532c-266 26-499-61-770-225v995c0 1264-1378 1659-1932 753-356-583-138-1606 1004-1647v561c-87 14-180 36-265 65-254 86-398 247-358 531 77 544 1075 705 992-358V1h551z\"><\/path><\/svg>\n    <\/a>\n<a href=\"https:\/\/www.instagram.com\/drink_ful\/\" target=\"_blank\">@ful_company<\/a>\n<\/h2>"
+      }
+    },
+    "d55c0a34-6af9-449a-937a-dd1d752a3a97": {
+      "type": "image--image-with-html",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/7_Ful_Proof_Cocktails_1.jpg",
+        "image_height": "30vw",
+        "bg_image_overlay_opacity": 0,
+        "parallax": false,
+        "title": "",
+        "text": "<h2 class=\"grid-item__title\">\n<svg width=\"100\" height=\"40\" viewbox=\"0 0 127 51\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M80.8215 48.4133H73.6709C73.1745 48.4133 72.7754 48.0051 72.7855 47.5088C72.8065 46.3977 72.8466 45.3198 72.7524 44.2569C72.6962 43.6111 72.625 42.9673 72.5458 42.3246C72.3102 40.4214 70.2425 39.5259 68.8527 40.7242C68.3563 41.1524 67.867 41.5886 67.3897 42.0398C65.8334 43.5128 64.5228 45.3198 62.8713 46.6404C53.9358 53.785 43.2616 49.4641 41.6652 37.6337C40.7416 30.795 41.1778 23.7366 41.0605 16.7765C41.0014 13.2248 41.0405 5.72425 41.0475 1.28609C41.0485 0.635303 41.5769 0.109863 42.2267 0.109863H49.2871C49.9378 0.109863 50.4663 0.638312 50.4663 1.2901C50.4663 2.43323 50.4653 3.53926 50.4663 4.64529C50.4733 11.8531 50.3189 23.7998 50.5365 31.0005C50.733 37.4923 53.7062 40.1336 59.6595 39.6964C66.8111 39.1719 71.6524 34.0649 72.0565 25.8735C72.3743 19.4088 72.1517 8.66732 72.1277 1.42046C72.1247 0.766663 72.6541 0.240221 73.3069 0.240221H80.5277C81.1795 0.240221 81.7069 0.768669 81.7069 1.41945V47.5278C81.7069 48.0162 81.3108 48.4133 80.8215 48.4133Z\" fill=\"white\"><\/path>\n<path d=\"M37.1789 2.62194C37.0977 1.75757 36.1882 0.353725 35.5785 0.295566C34.9969 0.239412 15.4323 0.104041 14.7735 0.110057C14.2079 0.115071 13.6524 0.153176 13.137 0.195291C12.2055 0.270497 11.297 0.467036 10.4336 0.779893C8.72291 1.4016 7.29399 2.21683 6.06262 3.27373C5.34766 3.88841 4.65476 4.50009 4.05311 5.22508C2.94206 6.56575 2.12382 7.88938 1.55125 9.27117C1.06492 10.4434 0.535468 11.8472 0.294808 13.3694C0.269739 13.5298 0.238654 13.6903 0.208572 13.8517C0.12033 14.325 0.020055 14.8615 0.020055 15.4431L0 47.2412C0 47.893 0.548503 48.4205 1.22536 48.4205C1.28953 48.4295 1.35672 48.4415 1.4239 48.4415L8.22454 48.4205C8.9004 48.4205 9.4499 47.893 9.4499 47.2412L9.43586 31.9754C9.43285 29.9849 11.0383 28.3685 13.0287 28.3595C18.3493 28.3354 27.729 28.2923 28.0469 28.2983C28.459 28.3043 28.7959 27.9313 28.8009 27.467C28.824 25.253 28.9173 23.3668 28.7197 21.5127C28.6385 20.7516 28.08 19.4641 27.1183 19.4641C26.5969 19.4641 19.8354 19.429 19.8354 19.429C17.0467 19.412 14.6652 20.505 13.1691 21.605C11.8816 22.5516 9.73167 22.0873 9.57224 20.9121C9.56823 20.882 9.59731 18.4182 9.62037 15.5083C9.62037 15.5083 9.67953 14.9327 9.75674 14.665C10.0014 13.8196 10.4557 13.0255 11.1455 12.2373C11.3581 11.9916 11.6549 11.765 11.9688 11.5243L12.1884 11.3549C12.9876 10.7322 13.9282 10.4023 14.9831 10.3752C15.2789 10.3672 34.659 10.3391 36.2443 10.3361C36.8019 10.3351 37.2551 9.85477 37.2611 9.25813C37.2862 6.79839 37.3734 4.69262 37.1789 2.62194Z\" fill=\"white\"><\/path>\n<path d=\"M126.3 40.2136C126.296 39.7744 125.936 39.4215 125.497 39.4285C124.268 39.4505 123.216 39.4245 122.03 39.4024C117.344 39.3132 112.556 39.0946 108.071 37.8632C101.221 35.985 98.5479 30.1982 98.5008 22.5933H98.5509V1.29495C98.5509 0.644171 98.0225 0.115723 97.3717 0.115723H90.2632C89.6114 0.115723 89.083 0.641163 89.084 1.29395C89.092 4.38843 89.1361 8.12066 89.1361 21.9817C89.1361 34.1099 94.0656 48.4131 111.952 48.4131C113.591 48.4131 123.521 48.8794 124.686 48.7751C125.326 48.7179 126.131 47.8475 126.216 46.9982C126.427 44.8904 126.322 42.7446 126.3 40.2136Z\" fill=\"white\"><\/path>\n<\/svg>\nproof cocktails\n<\/h2>",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 20,
+        "text--text-size": 26,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#333333",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#4e4e4e"
+      }
+    },
+    "83839388-9d96-4935-b038-817464f1a9a5": {
+      "type": "image--image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image_height": "30vw",
+        "bg_image_overlay_opacity": 0,
+        "parallax": false,
+        "title": "",
+        "text": "",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 26,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#333333",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#4e4e4e"
+      }
+    },
+    "7cac28cf-041f-4da0-9ca5-194c5e1c7803": {
+      "type": "rev_slider-1",
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "26306bde-0342-4b9b-accb-b21adbf5ecef",
+    "9a67d9e5-768c-4e87-9d6a-7f51e45f3549",
+    "c4a11e2e-3be4-4782-bb50-701e096035b2",
+    "883b53b7-9796-49ef-863f-44f065df0ae2",
+    "6611bdda-93ab-481d-a192-f7533c5f7bb0",
+    "a2aa50c5-c464-45f9-b634-42534a9900ff",
+    "fd160619-8d21-4764-93eb-47e69e5a74f6",
+    "6d78f524-2bd6-4772-8bb6-5ec7d5d605b4",
+    "eb19a697-6b3e-4ed7-8541-be2d60e8fa3e",
+    "d55c0a34-6af9-449a-937a-dd1d752a3a97",
+    "83839388-9d96-4935-b038-817464f1a9a5",
+    "7cac28cf-041f-4da0-9ca5-194c5e1c7803"
+  ]
+}

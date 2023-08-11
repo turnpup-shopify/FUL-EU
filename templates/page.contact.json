@@ -1,0 +1,120 @@
+{
+  "sections": {
+    "image-with-text-overlay": {
+      "type": "image--image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_Contact_Us_Background.jpg",
+        "image_height": "30vw",
+        "bg_image_overlay_opacity": 20,
+        "parallax": true,
+        "title": "contact us",
+        "text": "We’d love to hear from you!Head on over to our FAQ section to find quick answers to frequently asked questions.For recipes and benefits geared toward maintaining your well-being and energy, visit The Ful® Scoop.General Inquiries: info@fulfoods.com",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "heading--text-size": 26,
+        "text--text-size": 18,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#000000",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#4e4e4e"
+      }
+    },
+    "3945cf3e-e422-4479-b669-c3aeb10fe84d": {
+      "type": "image--image-with-html",
+      "custom_css": [
+        "h2 {margin-bottom: 70px;}",
+        ".rte {line-height: 37px;}",
+        "a {font-family: \"Antique Olive\"; text-decoration: none; color: #9fe2df; border-bottom: none;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_Contact_Us_Background.jpg",
+        "image_height": "original",
+        "bg_image_overlay_opacity": 0,
+        "parallax": true,
+        "title": "contact us",
+        "text": "<p>We’d love to hear from you!<\/p>\n<p>Head on over to our FAQ section to find quick answers to frequently asked questions.<\/p>\n<p>For recipes and benefits geared toward maintaining your well-being and energy, visit The Ful® Scoop.<\/p>\n<p>General Inquiries:<\/p>\n<a href=\"mailto:info@fulfoods.com\"> info@fulfoods.com<\/a>",
+        "colors": "light",
+        "textPosition": "center",
+        "textAlignment": "left",
+        "heading--text-size": 50,
+        "text--text-size": 26,
+        "link": "",
+        "button_label": "",
+        "button-text": "#ffffff",
+        "button-background": "#333333",
+        "hover-button-text": "#ffffff",
+        "hover-button-background": "#4e4e4e"
+      }
+    },
+    "main": {
+      "type": "template--page-contact",
+      "blocks": {
+        "name": {
+          "type": "text",
+          "settings": {
+            "field-type": "text",
+            "form-field-label": "",
+            "required": false
+          }
+        },
+        "email": {
+          "type": "text",
+          "settings": {
+            "field-type": "email",
+            "form-field-label": "",
+            "required": false
+          }
+        },
+        "message": {
+          "type": "text",
+          "settings": {
+            "field-type": "textbox",
+            "form-field-label": "",
+            "required": false
+          }
+        }
+      },
+      "block_order": [
+        "name",
+        "email",
+        "message"
+      ],
+      "custom_css": [
+        "h1,.shopify-disclaimer {display: none;}",
+        "input {font-family: \"Gotham Narrow\"; font-size: 18px; border-bottom: 1px solid #00525f;}",
+        "textarea {font-family: \"Gotham Narrow\"; font-size: 18px; border: 1px solid #00525f; border-radius: 5px;}"
+      ],
+      "settings": {
+        "layout": "right"
+      }
+    },
+    "38b7000d-5000-494d-97ad-ff5521489f48": {
+      "type": "advanced-layout--custom-html",
+      "disabled": true,
+      "blocks": {
+        "template--18277698928977__38b7000d-5000-494d-97ad-ff5521489f48-16792953889d8b6aa2-0": {
+          "type": "html",
+          "settings": {
+            "code": "<div style=\"text-align:center; padding: 30px 0;\"><div class=\"wrapper-padded\">\n<h2 class=\"homepage-sections--title\">Use HTML to format your text so it can be easily read.<\/h2>This text can be used to share information about your brand with customers.<\/div><\/div>",
+            "width": "100%"
+          }
+        }
+      },
+      "block_order": [
+        "template--18277698928977__38b7000d-5000-494d-97ad-ff5521489f48-16792953889d8b6aa2-0"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "image-with-text-overlay",
+    "3945cf3e-e422-4479-b669-c3aeb10fe84d",
+    "main",
+    "38b7000d-5000-494d-97ad-ff5521489f48"
+  ]
+}
