@@ -571,6 +571,7 @@
         "template--19294185029969__fdc2c097-c8a2-4e57-a248-9f423080e0e7-column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/new_1_3.jpg",
             "image_border_radius": "300px",
             "title": "FUL BLU Powder",
             "title_font_size": "22px",
@@ -620,6 +621,7 @@
         "template--19294185029969__fdc2c097-c8a2-4e57-a248-9f423080e0e7-column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/new_2_1.jpg",
             "image_border_radius": "300px",
             "title": "FUL BLU Concentrated Liquid",
             "title_font_size": "22px",
