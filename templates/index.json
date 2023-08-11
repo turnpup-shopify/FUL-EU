@@ -50,8 +50,7 @@
         "template--18277698830673__26306bde-0342-4b9b-accb-b21adbf5ecef-16784181354230dba9-0"
       ],
       "custom_css": [
-        ".align-center {max-height: 100%;}",
-        ".textarea {margin-top: 13px;}"
+
       ],
       "settings": {
         "slider-animation": "slide",
@@ -173,6 +172,8 @@
             "link": "",
             "title": "",
             "subheading": "",
+            "background_color": "#ffffff",
+            "color": "#00525f",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#ffffff",
@@ -186,6 +187,8 @@
             "link": "shopify:\/\/collections\/frontpage",
             "title": "drink blue",
             "subheading": "<p>Finally a spirulina powerhouse product that tastes delicious. Our beverage is naturally blue!<\/p><p>Tasting is believing.<\/p>",
+            "background_color": "#ffffff",
+            "color": "#00525f",
             "overlay-btn-text": "Shop",
             "show-gradient-overlay": false,
             "overlay_font_color": "#ffffff",
@@ -206,6 +209,7 @@
         "colors": "white",
         "title": "",
         "richtext": "",
+        "reverse-mobile": false,
         "remove-spacing": true,
         "full-width": true,
         "section-width": "full",
@@ -275,6 +279,8 @@
             "link": "",
             "title": "",
             "subheading": "",
+            "background_color": "#ffffff",
+            "color": "#00525f",
             "overlay-btn-text": "",
             "show-gradient-overlay": false,
             "overlay_font_color": "#ffffff",
@@ -288,6 +294,8 @@
             "link": "shopify:\/\/pages\/sustainability",
             "title": "act green",
             "subheading": "<p>We don’t just want to “do less harm” – FUL aims to proactively benefit the planet.<\/p>",
+            "background_color": "#ffffff",
+            "color": "#00525f",
             "overlay-btn-text": "Learn more",
             "show-gradient-overlay": false,
             "overlay_font_color": "#ffffff",
@@ -308,6 +316,7 @@
         "colors": "white",
         "title": "",
         "richtext": "",
+        "reverse-mobile": false,
         "remove-spacing": true,
         "full-width": true,
         "section-width": "full",
