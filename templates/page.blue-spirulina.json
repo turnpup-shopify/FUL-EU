@@ -721,6 +721,7 @@
         "template--19294185029969__26c130f2-b24d-4abd-98ee-1280e735d350-column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ful_export_square_1.jpg",
             "image_border_radius": "300px",
             "title": "Own Products",
             "title_font_size": "22px",
@@ -770,6 +771,7 @@
         "template--19294185029969__26c130f2-b24d-4abd-98ee-1280e735d350-column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ful_export_2.jpg",
             "image_border_radius": "300px",
             "title": "Hot and Cold Beverage Applications",
             "title_font_size": "22px",
@@ -819,6 +821,7 @@
         "7fb47395-917f-43ee-976e-69a8edfeec31": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/unnamed.png",
             "image_border_radius": "300px",
             "title": "Snack and Breakfast Cereals",
             "title_font_size": "22px",
@@ -956,6 +959,7 @@
         "template--19294185029969__10fc07bf-ba1d-44db-a6e7-a939862f4d33-image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ful_protein_new_96474b1c-fe7a-4a76-8a1c-c73a7a903b36.jpg",
             "link": "",
             "title": "",
             "subheading": "",
@@ -1017,6 +1021,7 @@
         "template--19294185029969__1a3f37f6-ed85-4eac-8d35-43ecf4d91577-image-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/updated.jpg",
             "link": "",
             "title": "",
             "subheading": "",
@@ -1072,6 +1077,7 @@
         "template--19294185029969__13d550df-f16c-4029-a863-13befe7563df-image-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Oceans_and_islands.jpg",
             "link": "",
             "title": "",
             "subheading": "",
