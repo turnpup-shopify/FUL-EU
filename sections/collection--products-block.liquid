@@ -65,7 +65,7 @@
               <div class="product-grid--price">
                 {% render 'product-grid-item-price', product: product, collection: collection %}
               </div>
-              <button class="quick-add-button">Shop Now</button>
+              <a class="quick-add-button" href="{{ product.url | within: collection }}">Shop Now</a>
             </div>
 
             {% if product.compare_at_price_max > product.price and product.available %}
@@ -91,7 +91,7 @@
                     {{ 'homepage.onboarding.product_title' | t }}
                   </div>
                   <div class="product-grid--price">{{ 1999 | money }}</div>
-                  <button class="quick-add-button">Shop Now</button>
+                  <a class="quick-add-button" href="{{ product.url | within: collection }}">Shop Now</a>
                 </a>
               </div>
             </div>
