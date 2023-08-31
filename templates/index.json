@@ -417,6 +417,22 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "0c5c6cf3-726b-4a4c-a70d-a412eaa64a88": {
+      "type": "collection--featured-collection",
+      "disabled": true,
+      "settings": {
+        "colors": "white",
+        "title": "",
+        "richtext": "",
+        "collection": "",
+        "grid-desktop": 4,
+        "grid-tablet": 3,
+        "grid-mobile": 2,
+        "rows": 2,
+        "show-vendor": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
@@ -431,6 +447,7 @@
     "eb19a697-6b3e-4ed7-8541-be2d60e8fa3e",
     "d55c0a34-6af9-449a-937a-dd1d752a3a97",
     "83839388-9d96-4935-b038-817464f1a9a5",
-    "7cac28cf-041f-4da0-9ca5-194c5e1c7803"
+    "7cac28cf-041f-4da0-9ca5-194c5e1c7803",
+    "0c5c6cf3-726b-4a4c-a70d-a412eaa64a88"
   ]
 }
