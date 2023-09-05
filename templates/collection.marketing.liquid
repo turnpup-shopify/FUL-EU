@@ -1,5 +1,12 @@
-{%if customer .tags contains 'Marketing'%}
-  {%section 'collection'%}
-  {%else%}
-  {{ pages.our story.content }}
-  {%endif%}
+{% if customer.tags contains 'marketing' %}
+  {% assign collection_handle = 'marketing' %}
+  <h1>Your Marketing Collection</h1>
+  <ul>
+    {% for product in collections[collection_handle].products %}
+      <li>{{ product.title }}</li>
+    {% endfor %}
+  </ul>
+{% else %}
+  {{ pages.our_story.content }}
+{% endif %}
+
