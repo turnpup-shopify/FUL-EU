@@ -131,8 +131,8 @@
         "type": "announcement-bar",
         "settings": {
           "enable_announcement_bar": true,
-          "message_text": "Free Shipping on Variety Pack",
-          "message_link": "shopify:\/\/products\/variety-pack-6-pack",
+          "message_text": "Use code BF25 for 25% off your order",
+          "message_link": "shopify:\/\/collections\/frontpage",
           "announcement-bar--background-color": "#005461",
           "announcement-bar--text-color": "#ffffff",
           "enable_social_icons": true
